@@ -1,0 +1,2925 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="simpleButton18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 3</value>
+  </data>
+  <data name="simpleButton18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="simpleButton18.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="simpleButton18.Text" xml:space="preserve">
+    <value>SEÇ</value>
+  </data>
+  <data name="&gt;&gt;simpleButton18.Name" xml:space="preserve">
+    <value>simpleButton18</value>
+  </data>
+  <data name="&gt;&gt;simpleButton18.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton18.Parent" xml:space="preserve">
+    <value>ultraPanel1.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;simpleButton18.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 3</value>
+  </data>
+  <data name="ultraButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 35</value>
+  </data>
+  <data name="ultraButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ultraButton2.Text" xml:space="preserve">
+    <value>Barkod ile Ürün Ara</value>
+  </data>
+  <data name="&gt;&gt;ultraButton2.Name" xml:space="preserve">
+    <value>ultraButton2</value>
+  </data>
+  <data name="&gt;&gt;ultraButton2.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraButton2.Parent" xml:space="preserve">
+    <value>ultraPanel1.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;ultraButton2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 14</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Stok Kodu</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>ultraPanel1.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ultraButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="ultraButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>882, 0</value>
+  </data>
+  <data name="ultraButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 50</value>
+  </data>
+  <data name="ultraButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ultraButton1.Text" xml:space="preserve">
+    <value>Standart Kart Aç</value>
+  </data>
+  <data name="&gt;&gt;ultraButton1.Name" xml:space="preserve">
+    <value>ultraButton1</value>
+  </data>
+  <data name="&gt;&gt;ultraButton1.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraButton1.Parent" xml:space="preserve">
+    <value>ultraPanel1.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;ultraButton1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtStokKodu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 9</value>
+  </data>
+  <data name="txtStokKodu.MaxLength" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txtStokKodu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 20</value>
+  </data>
+  <data name="txtStokKodu.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtStokKodu.Name" xml:space="preserve">
+    <value>txtStokKodu</value>
+  </data>
+  <data name="&gt;&gt;txtStokKodu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStokKodu.Parent" xml:space="preserve">
+    <value>ultraPanel1.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;txtStokKodu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnStokBul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 8</value>
+  </data>
+  <data name="btnStokBul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 24</value>
+  </data>
+  <data name="btnStokBul.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnStokBul.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnStokBul.Name" xml:space="preserve">
+    <value>btnStokBul</value>
+  </data>
+  <data name="&gt;&gt;btnStokBul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStokBul.Parent" xml:space="preserve">
+    <value>ultraPanel1.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;btnStokBul.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ClientArea.Name" xml:space="preserve">
+    <value>ultraPanel1.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ClientArea.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraPanelClientAreaUnsafe, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ClientArea.Parent" xml:space="preserve">
+    <value>ultraPanel1</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ClientArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ultraPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ultraPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1035, 50</value>
+  </data>
+  <data name="ultraPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.Name" xml:space="preserve">
+    <value>ultraPanel1</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraPanel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtislem5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>657, 26</value>
+  </data>
+  <data name="txtislem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtislem5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtislem5.Name" xml:space="preserve">
+    <value>txtislem5</value>
+  </data>
+  <data name="&gt;&gt;txtislem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtislem5.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;txtislem5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtislem4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 26</value>
+  </data>
+  <data name="txtislem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtislem4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtislem4.Name" xml:space="preserve">
+    <value>txtislem4</value>
+  </data>
+  <data name="&gt;&gt;txtislem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtislem4.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;txtislem4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtislem3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 26</value>
+  </data>
+  <data name="txtislem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtislem3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtislem3.Name" xml:space="preserve">
+    <value>txtislem3</value>
+  </data>
+  <data name="&gt;&gt;txtislem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtislem3.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;txtislem3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtislem2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 26</value>
+  </data>
+  <data name="txtislem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtislem2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtislem2.Name" xml:space="preserve">
+    <value>txtislem2</value>
+  </data>
+  <data name="&gt;&gt;txtislem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtislem2.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;txtislem2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtislem1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 26</value>
+  </data>
+  <data name="txtislem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtislem1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtislem1.Name" xml:space="preserve">
+    <value>txtislem1</value>
+  </data>
+  <data name="&gt;&gt;txtislem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtislem1.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;txtislem1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 4</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Kalan</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 4</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Çıkış İade</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 4</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 4</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Giriş İade</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 4</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panel8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 418</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 60</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblBeden.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBeden.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="lblBeden.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 164</value>
+  </data>
+  <data name="lblBeden.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 14</value>
+  </data>
+  <data name="lblBeden.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblBeden.Text" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="lblBeden.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblBeden.Name" xml:space="preserve">
+    <value>lblBeden</value>
+  </data>
+  <data name="&gt;&gt;lblBeden.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBeden.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;lblBeden.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblFiyattipi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFiyattipi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="lblFiyattipi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 137</value>
+  </data>
+  <data name="lblFiyattipi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 14</value>
+  </data>
+  <data name="lblFiyattipi.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblFiyattipi.Text" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="lblFiyattipi.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblFiyattipi.Name" xml:space="preserve">
+    <value>lblFiyattipi</value>
+  </data>
+  <data name="&gt;&gt;lblFiyattipi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFiyattipi.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;lblFiyattipi.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 164</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Beden</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 136</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Fiyatlandırma Tipi</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 163</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>KDV Oranı</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 136</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Birim Cinsi 2</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 109</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Birim Cinsi 1</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 82</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Kısa Adı</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 55</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Özel Not</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 28</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Ürün Adı</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbKDV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 159</value>
+  </data>
+  <data name="cmbKDV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 21</value>
+  </data>
+  <data name="cmbKDV.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cmbKDV.Name" xml:space="preserve">
+    <value>cmbKDV</value>
+  </data>
+  <data name="&gt;&gt;cmbKDV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbKDV.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;cmbKDV.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbBirim2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 132</value>
+  </data>
+  <data name="cmbBirim2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 21</value>
+  </data>
+  <data name="cmbBirim2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cmbBirim2.Name" xml:space="preserve">
+    <value>cmbBirim2</value>
+  </data>
+  <data name="&gt;&gt;cmbBirim2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBirim2.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;cmbBirim2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbBirim1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 105</value>
+  </data>
+  <data name="cmbBirim1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 21</value>
+  </data>
+  <data name="cmbBirim1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cmbBirim1.Name" xml:space="preserve">
+    <value>cmbBirim1</value>
+  </data>
+  <data name="&gt;&gt;cmbBirim1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBirim1.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;cmbBirim1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtKisaAdi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 78</value>
+  </data>
+  <data name="txtKisaAdi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 20</value>
+  </data>
+  <data name="txtKisaAdi.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtKisaAdi.Name" xml:space="preserve">
+    <value>txtKisaAdi</value>
+  </data>
+  <data name="&gt;&gt;txtKisaAdi.Type" xml:space="preserve">
+    <value>WindowsFormsControlLibrary1.BunifuCustomTextbox, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtKisaAdi.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;txtKisaAdi.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="bunifuCustomTextbox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 51</value>
+  </data>
+  <data name="bunifuCustomTextbox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 20</value>
+  </data>
+  <data name="bunifuCustomTextbox2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomTextbox2.Name" xml:space="preserve">
+    <value>bunifuCustomTextbox2</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomTextbox2.Type" xml:space="preserve">
+    <value>WindowsFormsControlLibrary1.BunifuCustomTextbox, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomTextbox2.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;bunifuCustomTextbox2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtsAciklama.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 24</value>
+  </data>
+  <data name="txtsAciklama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 20</value>
+  </data>
+  <data name="txtsAciklama.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtsAciklama.Name" xml:space="preserve">
+    <value>txtsAciklama</value>
+  </data>
+  <data name="&gt;&gt;txtsAciklama.Type" xml:space="preserve">
+    <value>WindowsFormsControlLibrary1.BunifuCustomTextbox, Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtsAciklama.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;txtsAciklama.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ultraTabPageControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 478</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Name" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlRenkBeden.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlRenkBeden.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlRenkBeden.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 425</value>
+  </data>
+  <data name="pnlRenkBeden.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlRenkBeden.Name" xml:space="preserve">
+    <value>pnlRenkBeden</value>
+  </data>
+  <data name="&gt;&gt;pnlRenkBeden.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRenkBeden.Parent" xml:space="preserve">
+    <value>pnlRenkBedenOlan</value>
+  </data>
+  <data name="&gt;&gt;pnlRenkBeden.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 425</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>pnlRenkBedenOlan</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="simpleButton17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="simpleButton17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>752, 6</value>
+  </data>
+  <data name="simpleButton17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 28</value>
+  </data>
+  <data name="simpleButton17.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="simpleButton17.Text" xml:space="preserve">
+    <value>Beden</value>
+  </data>
+  <data name="&gt;&gt;simpleButton17.Name" xml:space="preserve">
+    <value>simpleButton17</value>
+  </data>
+  <data name="&gt;&gt;simpleButton17.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton17.Parent" xml:space="preserve">
+    <value>panelControl7</value>
+  </data>
+  <data name="&gt;&gt;simpleButton17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="simpleButton19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="simpleButton19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 5</value>
+  </data>
+  <data name="simpleButton19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 28</value>
+  </data>
+  <data name="simpleButton19.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="simpleButton19.Text" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="&gt;&gt;simpleButton19.Name" xml:space="preserve">
+    <value>simpleButton19</value>
+  </data>
+  <data name="&gt;&gt;simpleButton19.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton19.Parent" xml:space="preserve">
+    <value>panelControl7</value>
+  </data>
+  <data name="&gt;&gt;simpleButton19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panelControl7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 425</value>
+  </data>
+  <data name="panelControl7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 53</value>
+  </data>
+  <data name="panelControl7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelControl7.Name" xml:space="preserve">
+    <value>panelControl7</value>
+  </data>
+  <data name="&gt;&gt;panelControl7.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl7.Parent" xml:space="preserve">
+    <value>pnlRenkBedenOlan</value>
+  </data>
+  <data name="&gt;&gt;panelControl7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlRenkBedenOlan.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlRenkBedenOlan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlRenkBedenOlan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 478</value>
+  </data>
+  <data name="pnlRenkBedenOlan.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlRenkBedenOlan.Name" xml:space="preserve">
+    <value>pnlRenkBedenOlan</value>
+  </data>
+  <data name="&gt;&gt;pnlRenkBedenOlan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRenkBedenOlan.Parent" xml:space="preserve">
+    <value>ultraTabPageControl2</value>
+  </data>
+  <data name="&gt;&gt;pnlRenkBedenOlan.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 478</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Name" xml:space="preserve">
+    <value>ultraTabPageControl2</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnsnfac1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnsnfac1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 9</value>
+  </data>
+  <data name="btnsnfac1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac1.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="btnsnfac1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac1.Name" xml:space="preserve">
+    <value>btnsnfac1</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac1.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtsnf1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="txtsnf1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 9</value>
+  </data>
+  <data name="txtsnf1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf1.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;txtsnf1.Name" xml:space="preserve">
+    <value>txtsnf1</value>
+  </data>
+  <data name="&gt;&gt;txtsnf1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf1.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnsnfac15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 415</value>
+  </data>
+  <data name="btnsnfac15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac15.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="btnsnfac15.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac15.Name" xml:space="preserve">
+    <value>btnsnfac15</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac15.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnsnfac14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 386</value>
+  </data>
+  <data name="btnsnfac14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac14.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="btnsnfac14.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac14.Name" xml:space="preserve">
+    <value>btnsnfac14</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac14.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnsnfac13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 357</value>
+  </data>
+  <data name="btnsnfac13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac13.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="btnsnfac13.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac13.Name" xml:space="preserve">
+    <value>btnsnfac13</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac13.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac13.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnsnfac12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 328</value>
+  </data>
+  <data name="btnsnfac12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac12.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="btnsnfac12.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac12.Name" xml:space="preserve">
+    <value>btnsnfac12</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac12.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnsnfac11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 299</value>
+  </data>
+  <data name="btnsnfac11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac11.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="btnsnfac11.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac11.Name" xml:space="preserve">
+    <value>btnsnfac11</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac11.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnsnfac10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 270</value>
+  </data>
+  <data name="btnsnfac10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac10.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btnsnfac10.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac10.Name" xml:space="preserve">
+    <value>btnsnfac10</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac10.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac10.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnsnfac9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 241</value>
+  </data>
+  <data name="btnsnfac9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac9.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnsnfac9.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac9.Name" xml:space="preserve">
+    <value>btnsnfac9</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac9.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnsnfac8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 212</value>
+  </data>
+  <data name="btnsnfac8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac8.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="btnsnfac8.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac8.Name" xml:space="preserve">
+    <value>btnsnfac8</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac8.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnsnfac7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 183</value>
+  </data>
+  <data name="btnsnfac7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac7.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="btnsnfac7.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac7.Name" xml:space="preserve">
+    <value>btnsnfac7</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac7.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnsnfac6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 154</value>
+  </data>
+  <data name="btnsnfac6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac6.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="btnsnfac6.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac6.Name" xml:space="preserve">
+    <value>btnsnfac6</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac6.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnsnfac5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 125</value>
+  </data>
+  <data name="btnsnfac5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac5.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="btnsnfac5.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac5.Name" xml:space="preserve">
+    <value>btnsnfac5</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac5.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnsnfac4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 96</value>
+  </data>
+  <data name="btnsnfac4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac4.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="btnsnfac4.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac4.Name" xml:space="preserve">
+    <value>btnsnfac4</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac4.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnsnfac3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 67</value>
+  </data>
+  <data name="btnsnfac3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac3.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="btnsnfac3.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac3.Name" xml:space="preserve">
+    <value>btnsnfac3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac3.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnsnfac2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnsnfac2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 38</value>
+  </data>
+  <data name="btnsnfac2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="btnsnfac2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnsnfac2.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac2.Name" xml:space="preserve">
+    <value>btnsnfac2</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac2.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;btnsnfac2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtsnf15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 415</value>
+  </data>
+  <data name="txtsnf15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf15.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;txtsnf15.Name" xml:space="preserve">
+    <value>txtsnf15</value>
+  </data>
+  <data name="&gt;&gt;txtsnf15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf15.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf15.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtsnf14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 386</value>
+  </data>
+  <data name="txtsnf14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf14.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;txtsnf14.Name" xml:space="preserve">
+    <value>txtsnf14</value>
+  </data>
+  <data name="&gt;&gt;txtsnf14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf14.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf14.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtsnf13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 357</value>
+  </data>
+  <data name="txtsnf13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf13.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;txtsnf13.Name" xml:space="preserve">
+    <value>txtsnf13</value>
+  </data>
+  <data name="&gt;&gt;txtsnf13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf13.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf13.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtsnf12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 328</value>
+  </data>
+  <data name="txtsnf12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf12.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;txtsnf12.Name" xml:space="preserve">
+    <value>txtsnf12</value>
+  </data>
+  <data name="&gt;&gt;txtsnf12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf12.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf12.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="txtsnf11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 299</value>
+  </data>
+  <data name="txtsnf11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf11.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;txtsnf11.Name" xml:space="preserve">
+    <value>txtsnf11</value>
+  </data>
+  <data name="&gt;&gt;txtsnf11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf11.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf11.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txtsnf10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 270</value>
+  </data>
+  <data name="txtsnf10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf10.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;txtsnf10.Name" xml:space="preserve">
+    <value>txtsnf10</value>
+  </data>
+  <data name="&gt;&gt;txtsnf10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf10.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf10.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="txtsnf9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 241</value>
+  </data>
+  <data name="txtsnf9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf9.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;txtsnf9.Name" xml:space="preserve">
+    <value>txtsnf9</value>
+  </data>
+  <data name="&gt;&gt;txtsnf9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf9.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf9.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="txtsnf8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 212</value>
+  </data>
+  <data name="txtsnf8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf8.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;txtsnf8.Name" xml:space="preserve">
+    <value>txtsnf8</value>
+  </data>
+  <data name="&gt;&gt;txtsnf8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf8.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf8.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtsnf7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 183</value>
+  </data>
+  <data name="txtsnf7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf7.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txtsnf7.Name" xml:space="preserve">
+    <value>txtsnf7</value>
+  </data>
+  <data name="&gt;&gt;txtsnf7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf7.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf7.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="txtsnf6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 154</value>
+  </data>
+  <data name="txtsnf6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf6.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txtsnf6.Name" xml:space="preserve">
+    <value>txtsnf6</value>
+  </data>
+  <data name="&gt;&gt;txtsnf6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf6.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf6.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="txtsnf5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 125</value>
+  </data>
+  <data name="txtsnf5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf5.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txtsnf5.Name" xml:space="preserve">
+    <value>txtsnf5</value>
+  </data>
+  <data name="&gt;&gt;txtsnf5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf5.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf5.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="txtsnf4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 96</value>
+  </data>
+  <data name="txtsnf4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf4.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtsnf4.Name" xml:space="preserve">
+    <value>txtsnf4</value>
+  </data>
+  <data name="&gt;&gt;txtsnf4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf4.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf4.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="txtsnf3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 67</value>
+  </data>
+  <data name="txtsnf3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;txtsnf3.Name" xml:space="preserve">
+    <value>txtsnf3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf3.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf3.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="txtsnf2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 38</value>
+  </data>
+  <data name="txtsnf2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 20</value>
+  </data>
+  <data name="txtsnf2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtsnf2.Name" xml:space="preserve">
+    <value>txtsnf2</value>
+  </data>
+  <data name="&gt;&gt;txtsnf2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsnf2.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;txtsnf2.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblSinif15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 419</value>
+  </data>
+  <data name="lblSinif15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif15.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif15.Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblSinif15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif15.Name" xml:space="preserve">
+    <value>lblSinif15</value>
+  </data>
+  <data name="&gt;&gt;lblSinif15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif15.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif15.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblSinif14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 390</value>
+  </data>
+  <data name="lblSinif14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif14.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif14.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblSinif14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif14.Name" xml:space="preserve">
+    <value>lblSinif14</value>
+  </data>
+  <data name="&gt;&gt;lblSinif14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif14.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif14.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lblSinif13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 361</value>
+  </data>
+  <data name="lblSinif13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif13.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif13.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblSinif13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif13.Name" xml:space="preserve">
+    <value>lblSinif13</value>
+  </data>
+  <data name="&gt;&gt;lblSinif13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif13.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif13.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblSinif12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 332</value>
+  </data>
+  <data name="lblSinif12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif12.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblSinif12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif12.Name" xml:space="preserve">
+    <value>lblSinif12</value>
+  </data>
+  <data name="&gt;&gt;lblSinif12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif12.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif12.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="lblSinif11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 303</value>
+  </data>
+  <data name="lblSinif11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif11.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblSinif11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif11.Name" xml:space="preserve">
+    <value>lblSinif11</value>
+  </data>
+  <data name="&gt;&gt;lblSinif11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif11.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif11.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lblSinif10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 274</value>
+  </data>
+  <data name="lblSinif10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif10.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblSinif10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif10.Name" xml:space="preserve">
+    <value>lblSinif10</value>
+  </data>
+  <data name="&gt;&gt;lblSinif10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif10.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif10.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lblSinif9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 245</value>
+  </data>
+  <data name="lblSinif9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif9.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblSinif9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif9.Name" xml:space="preserve">
+    <value>lblSinif9</value>
+  </data>
+  <data name="&gt;&gt;lblSinif9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif9.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif9.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="lblSinif8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 216</value>
+  </data>
+  <data name="lblSinif8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif8.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblSinif8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif8.Name" xml:space="preserve">
+    <value>lblSinif8</value>
+  </data>
+  <data name="&gt;&gt;lblSinif8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif8.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif8.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="lblSinif7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 187</value>
+  </data>
+  <data name="lblSinif7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif7.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblSinif7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif7.Name" xml:space="preserve">
+    <value>lblSinif7</value>
+  </data>
+  <data name="&gt;&gt;lblSinif7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif7.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif7.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="lblSinif6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 158</value>
+  </data>
+  <data name="lblSinif6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif6.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblSinif6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif6.Name" xml:space="preserve">
+    <value>lblSinif6</value>
+  </data>
+  <data name="&gt;&gt;lblSinif6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif6.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif6.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="lblSinif5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 129</value>
+  </data>
+  <data name="lblSinif5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif5.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblSinif5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif5.Name" xml:space="preserve">
+    <value>lblSinif5</value>
+  </data>
+  <data name="&gt;&gt;lblSinif5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif5.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif5.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="lblSinif4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 100</value>
+  </data>
+  <data name="lblSinif4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblSinif4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif4.Name" xml:space="preserve">
+    <value>lblSinif4</value>
+  </data>
+  <data name="&gt;&gt;lblSinif4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif4.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif4.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="lblSinif3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 71</value>
+  </data>
+  <data name="lblSinif3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSinif3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif3.Name" xml:space="preserve">
+    <value>lblSinif3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif3.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif3.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="lblSinif2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 42</value>
+  </data>
+  <data name="lblSinif2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSinif2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif2.Name" xml:space="preserve">
+    <value>lblSinif2</value>
+  </data>
+  <data name="&gt;&gt;lblSinif2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif2.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif2.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="lblSinif1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSinif1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 13</value>
+  </data>
+  <data name="lblSinif1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 13</value>
+  </data>
+  <data name="lblSinif1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblSinif1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSinif1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSinif1.Name" xml:space="preserve">
+    <value>lblSinif1</value>
+  </data>
+  <data name="&gt;&gt;lblSinif1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSinif1.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;lblSinif1.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="ultraTabPageControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="ultraTabPageControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 478</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Name" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ultraTabPageControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 478</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Name" xml:space="preserve">
+    <value>ultraTabPageControl4</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ultraTabSharedControlsPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabSharedControlsPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 478</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Name" xml:space="preserve">
+    <value>ultraTabSharedControlsPage1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ultraTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ultraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="ultraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>904, 501</value>
+  </data>
+  <data name="ultraTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ultraTab1.Text" xml:space="preserve">
+    <value>Genel  Bilgiler</value>
+  </data>
+  <data name="ultraTab2.Text" xml:space="preserve">
+    <value>Renk / Beden / KavalaTablosu </value>
+  </data>
+  <data name="ultraTab3.Text" xml:space="preserve">
+    <value>Sınıflar</value>
+  </data>
+  <data name="ultraTab4.Text" xml:space="preserve">
+    <value>Tema Bilgisi</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.Name" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="simpleButton16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 465</value>
+  </data>
+  <data name="simpleButton16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton16.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="simpleButton16.Text" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="&gt;&gt;simpleButton16.Name" xml:space="preserve">
+    <value>simpleButton16</value>
+  </data>
+  <data name="&gt;&gt;simpleButton16.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="simpleButton15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 434</value>
+  </data>
+  <data name="simpleButton15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton15.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="simpleButton15.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="&gt;&gt;simpleButton15.Name" xml:space="preserve">
+    <value>simpleButton15</value>
+  </data>
+  <data name="&gt;&gt;simpleButton15.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton15.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="simpleButton14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 403</value>
+  </data>
+  <data name="simpleButton14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton14.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="simpleButton14.Text" xml:space="preserve">
+    <value>Ekstra</value>
+  </data>
+  <data name="&gt;&gt;simpleButton14.Name" xml:space="preserve">
+    <value>simpleButton14</value>
+  </data>
+  <data name="&gt;&gt;simpleButton14.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton14.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="simpleButton13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 372</value>
+  </data>
+  <data name="simpleButton13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton13.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="simpleButton13.Text" xml:space="preserve">
+    <value>Stok Durumu</value>
+  </data>
+  <data name="&gt;&gt;simpleButton13.Name" xml:space="preserve">
+    <value>simpleButton13</value>
+  </data>
+  <data name="&gt;&gt;simpleButton13.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton13.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton13.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="simpleButton12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 341</value>
+  </data>
+  <data name="simpleButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton12.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="simpleButton12.Text" xml:space="preserve">
+    <value>Satışları Bul</value>
+  </data>
+  <data name="&gt;&gt;simpleButton12.Name" xml:space="preserve">
+    <value>simpleButton12</value>
+  </data>
+  <data name="&gt;&gt;simpleButton12.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton12.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="simpleButton11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 310</value>
+  </data>
+  <data name="simpleButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton11.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="simpleButton11.Text" xml:space="preserve">
+    <value>Alışları Bul</value>
+  </data>
+  <data name="&gt;&gt;simpleButton11.Name" xml:space="preserve">
+    <value>simpleButton11</value>
+  </data>
+  <data name="&gt;&gt;simpleButton11.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="simpleButton10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 279</value>
+  </data>
+  <data name="simpleButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="simpleButton10.Text" xml:space="preserve">
+    <value>Resim Gir</value>
+  </data>
+  <data name="&gt;&gt;simpleButton10.Name" xml:space="preserve">
+    <value>simpleButton10</value>
+  </data>
+  <data name="&gt;&gt;simpleButton10.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="simpleButton9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 248</value>
+  </data>
+  <data name="simpleButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton9.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="simpleButton9.Text" xml:space="preserve">
+    <value>Uzun Not Gir</value>
+  </data>
+  <data name="&gt;&gt;simpleButton9.Name" xml:space="preserve">
+    <value>simpleButton9</value>
+  </data>
+  <data name="&gt;&gt;simpleButton9.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton9.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="simpleButton8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 217</value>
+  </data>
+  <data name="simpleButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="simpleButton8.Text" xml:space="preserve">
+    <value>Birim Cinsi Çevir</value>
+  </data>
+  <data name="&gt;&gt;simpleButton8.Name" xml:space="preserve">
+    <value>simpleButton8</value>
+  </data>
+  <data name="&gt;&gt;simpleButton8.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="simpleButton7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 186</value>
+  </data>
+  <data name="simpleButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="simpleButton7.Text" xml:space="preserve">
+    <value>Fiyat Gözlem</value>
+  </data>
+  <data name="&gt;&gt;simpleButton7.Name" xml:space="preserve">
+    <value>simpleButton7</value>
+  </data>
+  <data name="&gt;&gt;simpleButton7.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="simpleButton6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 155</value>
+  </data>
+  <data name="simpleButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="simpleButton6.Text" xml:space="preserve">
+    <value>Fiyat Gir</value>
+  </data>
+  <data name="&gt;&gt;simpleButton6.Name" xml:space="preserve">
+    <value>simpleButton6</value>
+  </data>
+  <data name="&gt;&gt;simpleButton6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton6.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="simpleButton5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 124</value>
+  </data>
+  <data name="simpleButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="simpleButton5.Text" xml:space="preserve">
+    <value>Barkod Gir</value>
+  </data>
+  <data name="&gt;&gt;simpleButton5.Name" xml:space="preserve">
+    <value>simpleButton5</value>
+  </data>
+  <data name="&gt;&gt;simpleButton5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="simpleButton4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 93</value>
+  </data>
+  <data name="simpleButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="simpleButton4.Text" xml:space="preserve">
+    <value>YeniAçıklama Gir</value>
+  </data>
+  <data name="&gt;&gt;simpleButton4.Name" xml:space="preserve">
+    <value>simpleButton4</value>
+  </data>
+  <data name="&gt;&gt;simpleButton4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="simpleButton3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="simpleButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="simpleButton3.Text" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.Name" xml:space="preserve">
+    <value>simpleButton3</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="simpleButton2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="simpleButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="simpleButton2.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Name" xml:space="preserve">
+    <value>simpleButton2</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="simpleButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="simpleButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>Kaydet &amp; Yeni</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
+    <value>simpleButton1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>904, 50</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 501</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1035, 551</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Stok Aç</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm_Stok</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

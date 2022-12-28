@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ForYou
 {
-    public partial class Form1 : Form
+    public partial class Frm_BedenTipi : Form
     {
-        public Form1()
+        public Frm_BedenTipi()
         {
             InitializeComponent();
         }
