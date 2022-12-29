@@ -18,14 +18,16 @@ namespace ForYou
     {
         public string kavalaTipi;
         public string bedenTipi;
+        public string renk;
         private string hexValue;
         private int decValue;
         renkbeden rnb;
 
-        public Frm_Renk(string _kavala, string _beden)
+        public Frm_Renk(string _kavala, string _beden, string _renk)
         {
             kavalaTipi = _kavala;
             bedenTipi = _beden;
+            renk = _renk;
             InitializeComponent();
         }
         class Nebular
@@ -42,13 +44,37 @@ namespace ForYou
 
         private void frmRenk_Load(object sender, EventArgs e)
         {
+            DataTable dt = new DataTable();
             this.Width = 486;
-            var dt = conn.DfQuerySpOnly("FK_Select_Renk");
+            if (renk != "")
+            {
+                Dictionary<string, string> value = new Dictionary<string, string>();
+                value.Add("@Renk", renk);
+                dt = conn.DfQuery("", value);
+            }
+            else
+            {
+                dt = conn.DfQuerySpOnly("FK_Select_Renk");
+            }
             Ekle(dt);
             setUpEventHandlers();
             if (bedenTipi == null)
             {
                 btnOk.Text = "Renk Ekle";
+            }
+
+            foreach (Nebular s in nebulae)
+            {
+                foreach (var item in ListRenkler.SelectedItems)
+                {
+                    string tt = ListRenkler.SelectedItems[0].SubItems[0].Text;
+                    if (s.sRenk == ListRenkler.SelectedItems[0].SubItems[0].Text)
+                    {
+                        ListSecili.Items.Add(new ListViewItem(new[] { s.sRenk, s.sRenkAdi }));
+                        ListRenkler.Items.RemoveAt(ListRenkler.SelectedItems[0].Index);
+                    }
+                }
+
             }
         }
         private void Ekle(DataTable Renk)
@@ -296,7 +322,7 @@ namespace ForYou
                         Values.Add("@sBedenTipi", "");
                     }
                     Values.Add("@sRenkKodu", secilirenkler);
-                    var tablo = conn.DfQuery("UrunRenkBedenKavalaSec", Values);
+                    var tablo = conn.DfQuery("FK_Select_Renk_Beden_Kavala_Sec", Values);
                     dataGridView1.DataSource = tablo;
                     dataGridView1.AutoResizeColumns();
                 }

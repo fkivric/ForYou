@@ -79,7 +79,6 @@ namespace ForYou
             StkSinif = cnn.DfQuery("FK_Select_Stok_SinifKodu", stksnf);
 
 
-
             for (int i = 0; i < Sinif.Rows.Count; i++)
             {
                 if (Sinif.Rows[i]["Sira"].ToString() == "1")
@@ -292,6 +291,7 @@ namespace ForYou
                 lblBeden.Visible = true;
                 lblBeden.Text = Urun.Rows[0]["FiyatAdi"].ToString();
             }
+            RenkBedenTablo();
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
@@ -351,13 +351,13 @@ namespace ForYou
                 MM.Add("@sBedenTipi", BedenTipi);
             }
             MM.Add("@sRenkKodu", renk);
-            var dt = cnn.DfQuery("FK_Select_Renk_Beden_Kavala_Sec", MM);
+            var dt = cnn.DfQuery("FK_Select_Stok_Renk_Beden_Kavala_Sec", MM);
             dataGridView1.DataSource = dt;
             dataGridView1.AutoResizeColumns();
         }
         private void simpleButton19_Click(object sender, EventArgs e)
         {
-            Frm_Renk frm = new Frm_Renk(KavalaTipi, BedenTipi);
+            Frm_Renk frm = new Frm_Renk(KavalaTipi, BedenTipi,"");
             frm.ShowDialog();
             RenkBedenTablo();
         }
