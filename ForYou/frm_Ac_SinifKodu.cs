@@ -12,11 +12,11 @@ using System.Data.SqlClient;
 
 namespace ForYou
 {
-    public partial class frm_SinifKodu : DevExpress.XtraEditors.XtraForm
+    public partial class frm_Ac_SinifKodu : DevExpress.XtraEditors.XtraForm
     {
         string sira;
         string tur;
-        public frm_SinifKodu(string _sira,string _tur)
+        public frm_Ac_SinifKodu(string _sira,string _tur)
         {
             InitializeComponent();
             sira = _sira;
@@ -57,7 +57,7 @@ namespace ForYou
                     else
                     {
                         frm_Stok.sinifkodu1 = kod;
-                        frm_StokSinifi.Secili = kod;
+                        frm_Ac_StokSinifi.Secili = kod;
                     }
                 }
                 else if (sira == "2")
@@ -69,7 +69,7 @@ namespace ForYou
                     else
                     {
                         frm_Stok.sinifkodu2 = kod;
-                        frm_StokSinifi.Secili = kod;
+                        frm_Ac_StokSinifi.Secili = kod;
                     }
                 }
                 else if (sira == "3")
@@ -81,7 +81,7 @@ namespace ForYou
                     else
                     {
                         frm_Stok.sinifkodu3 = kod;
-                        frm_StokSinifi.Secili = kod;
+                        frm_Ac_StokSinifi.Secili = kod;
                     }
                 }
                 else if (sira == "4")
@@ -93,7 +93,7 @@ namespace ForYou
                     else
                     {
                         frm_Stok.sinifkodu4 = kod;
-                        frm_StokSinifi.Secili = kod;
+                        frm_Ac_StokSinifi.Secili = kod;
                     }
                 }
                 else if (sira == "5")
@@ -105,59 +105,59 @@ namespace ForYou
                     else
                     {
                         frm_Stok.sinifkodu5 = kod;
-                        frm_StokSinifi.Secili = kod;
+                        frm_Ac_StokSinifi.Secili = kod;
                     }
                 }
                 else if (sira == "6")
                 {
                     frm_Stok.sinifkodu6 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "7")
                 {
                     frm_Stok.sinifkodu7 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "8")
                 {
                     frm_Stok.sinifkodu8 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "9")
                 {
 
                     frm_Stok.sinifkodu9 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "10")
                 {
                     frm_Stok.sinifkodu10 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "11")
                 {
                     frm_Stok.sinifkodu11 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "12")
                 {
                     frm_Stok.sinifkodu12 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "13")
                 {
                     frm_Stok.sinifkodu13 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "14")
                 {
                     frm_Stok.sinifkodu14 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 else if (sira == "15")
                 {
                     frm_Stok.sinifkodu15 = kod;
-                    frm_StokSinifi.Secili = kod;
+                    frm_Ac_StokSinifi.Secili = kod;
                 }
                 this.Close();
             }

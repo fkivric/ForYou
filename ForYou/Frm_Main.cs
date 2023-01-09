@@ -74,7 +74,7 @@ namespace ForYou
 
         private void stokSınıfıAçToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frm_StokSinifi stok = new frm_StokSinifi();
+            frm_Ac_StokSinifi stok = new frm_Ac_StokSinifi();
             stok.MdiParent = this;
             stok.Show();
         }

@@ -12,9 +12,9 @@ using System.Data.SqlClient;
 
 namespace ForYou
 {
-    public partial class frm_BedenTipiAktif : DevExpress.XtraEditors.XtraForm
+    public partial class frm_Ac_BedenTipiAktif : DevExpress.XtraEditors.XtraForm
     {
-        public frm_BedenTipiAktif()
+        public frm_Ac_BedenTipiAktif()
         {
             InitializeComponent();
         }

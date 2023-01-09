@@ -1,6 +1,6 @@
 ﻿namespace ForYou
 {
-    partial class frm_StokSinifi
+    partial class frm_Ac_StokSinifi
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_StokSinifi));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Ac_StokSinifi));
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
             this.btnYeni = new DevExpress.XtraEditors.SimpleButton();

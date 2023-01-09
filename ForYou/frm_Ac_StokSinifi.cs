@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace ForYou
 {
-    public partial class frm_StokSinifi : Form
+    public partial class frm_Ac_StokSinifi : Form
     {
-        public frm_StokSinifi()
+        public frm_Ac_StokSinifi()
         {
             InitializeComponent();
         }

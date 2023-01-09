@@ -1,6 +1,6 @@
 ﻿namespace ForYou
 {
-    partial class frm_BedenTipiAktif
+    partial class frm_Ac_BedenTipiAktif
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_BedenTipiAktif));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Ac_BedenTipiAktif));
             this.gridBeden = new DevExpress.XtraGrid.GridControl();
             this.ViewBeden = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();

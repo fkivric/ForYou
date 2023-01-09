@@ -1,6 +1,6 @@
 ﻿namespace ForYou
 {
-    partial class frm_SinifKodu
+    partial class frm_Ac_SinifKodu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_SinifKodu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Ac_SinifKodu));
             this.gridSinif = new DevExpress.XtraGrid.GridControl();
             this.ViewSinif = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
