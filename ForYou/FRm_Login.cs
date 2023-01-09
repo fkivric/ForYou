@@ -12,11 +12,11 @@ using System.Windows.Forms;
 
 namespace ForYou
 {
-    public partial class FRm_Login : Form
+    public partial class frm_Login : Form
     {
-        public FRm_Login()
+        public frm_Login()
         {
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ar-IQ");
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ar-AR");
             InitializeComponent();
         }
         SqlConnectionObject cnn = new SqlConnectionObject();
@@ -35,9 +35,9 @@ namespace ForYou
         {
             switch (Thread.CurrentThread.CurrentUICulture.IetfLanguageTag)
             {
-                case "tr-TR": Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ar-IQ"); break;
+                case "tr-TR": Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ar-AR"); break;
                 case "tr_TR": dropDownButton1.Text = "Türkçe"; break;
-                case "ar-IQ": Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("tr-TR"); break;
+                case "ar-AR": Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("tr-TR"); break;
             }
             this.Controls.Clear();
             InitializeComponent();

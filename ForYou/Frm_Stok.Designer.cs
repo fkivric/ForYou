@@ -1,6 +1,6 @@
 ﻿namespace ForYou
 {
-    partial class Frm_Stok
+    partial class frm_Stok
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Stok));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Stok));
             Infragistics.Win.Appearance appearance1 = new Infragistics.Win.Appearance();
             Infragistics.Win.UltraWinTabControl.UltraTab ultraTab1 = new Infragistics.Win.UltraWinTabControl.UltraTab();
             Infragistics.Win.UltraWinTabControl.UltraTab ultraTab2 = new Infragistics.Win.UltraWinTabControl.UltraTab();
@@ -38,7 +38,7 @@
             this.simpleButton18 = new DevExpress.XtraEditors.SimpleButton();
             this.ultraButton2 = new Infragistics.Win.Misc.UltraButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.ultraButton1 = new Infragistics.Win.Misc.UltraButton();
+            this.btnStandartAc = new Infragistics.Win.Misc.UltraButton();
             this.txtStokKodu = new System.Windows.Forms.TextBox();
             this.btnStokBul = new System.Windows.Forms.Button();
             this.ultraTabPageControl1 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
@@ -57,104 +57,108 @@
             this.lblFiyattipi = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.cmbKDV = new System.Windows.Forms.ComboBox();
             this.cmbBirim2 = new System.Windows.Forms.ComboBox();
             this.cmbBirim1 = new System.Windows.Forms.ComboBox();
             this.txtKisaAdi = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
             this.bunifuCustomTextbox2 = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
             this.txtsAciklama = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
             this.ultraTabPageControl2 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
-            this.ultraTabPageControl3 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
-            this.ultraTabPageControl4 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
-            this.ultraTabControl1 = new Infragistics.Win.UltraWinTabControl.UltraTabControl();
-            this.ultraTabSharedControlsPage1 = new Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.simpleButton16 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton15 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton14 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton13 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton12 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton11 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton9 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.label7 = new System.Windows.Forms.Label();
-            this.cmbKDV = new System.Windows.Forms.ComboBox();
-            this.lblSinif2 = new System.Windows.Forms.Label();
-            this.lblSinif3 = new System.Windows.Forms.Label();
-            this.lblSinif4 = new System.Windows.Forms.Label();
-            this.lblSinif5 = new System.Windows.Forms.Label();
-            this.lblSinif6 = new System.Windows.Forms.Label();
-            this.lblSinif7 = new System.Windows.Forms.Label();
-            this.lblSinif8 = new System.Windows.Forms.Label();
-            this.lblSinif9 = new System.Windows.Forms.Label();
-            this.lblSinif10 = new System.Windows.Forms.Label();
-            this.lblSinif11 = new System.Windows.Forms.Label();
-            this.lblSinif12 = new System.Windows.Forms.Label();
-            this.lblSinif13 = new System.Windows.Forms.Label();
-            this.lblSinif14 = new System.Windows.Forms.Label();
-            this.lblSinif15 = new System.Windows.Forms.Label();
             this.pnlRenkBedenOlan = new System.Windows.Forms.Panel();
             this.pnlRenkBeden = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panelControl7 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton17 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton19 = new DevExpress.XtraEditors.SimpleButton();
-            this.lblSinif1 = new System.Windows.Forms.Label();
-            this.txtsnf2 = new System.Windows.Forms.TextBox();
-            this.txtsnf3 = new System.Windows.Forms.TextBox();
-            this.txtsnf4 = new System.Windows.Forms.TextBox();
-            this.txtsnf5 = new System.Windows.Forms.TextBox();
-            this.txtsnf6 = new System.Windows.Forms.TextBox();
-            this.txtsnf7 = new System.Windows.Forms.TextBox();
-            this.txtsnf8 = new System.Windows.Forms.TextBox();
-            this.txtsnf9 = new System.Windows.Forms.TextBox();
-            this.txtsnf10 = new System.Windows.Forms.TextBox();
-            this.txtsnf11 = new System.Windows.Forms.TextBox();
-            this.txtsnf12 = new System.Windows.Forms.TextBox();
-            this.txtsnf13 = new System.Windows.Forms.TextBox();
-            this.txtsnf14 = new System.Windows.Forms.TextBox();
-            this.txtsnf15 = new System.Windows.Forms.TextBox();
-            this.btnsnfac2 = new System.Windows.Forms.Button();
-            this.btnsnfac3 = new System.Windows.Forms.Button();
-            this.btnsnfac4 = new System.Windows.Forms.Button();
-            this.btnsnfac5 = new System.Windows.Forms.Button();
-            this.btnsnfac6 = new System.Windows.Forms.Button();
-            this.btnsnfac7 = new System.Windows.Forms.Button();
-            this.btnsnfac8 = new System.Windows.Forms.Button();
-            this.btnsnfac9 = new System.Windows.Forms.Button();
-            this.btnsnfac10 = new System.Windows.Forms.Button();
-            this.btnsnfac11 = new System.Windows.Forms.Button();
-            this.btnsnfac12 = new System.Windows.Forms.Button();
-            this.btnsnfac13 = new System.Windows.Forms.Button();
-            this.btnsnfac14 = new System.Windows.Forms.Button();
-            this.btnsnfac15 = new System.Windows.Forms.Button();
-            this.txtsnf1 = new System.Windows.Forms.TextBox();
+            this.ultraTabPageControl3 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
             this.btnsnfac1 = new System.Windows.Forms.Button();
+            this.txtsnf1 = new System.Windows.Forms.TextBox();
+            this.btnsnfac15 = new System.Windows.Forms.Button();
+            this.btnsnfac14 = new System.Windows.Forms.Button();
+            this.btnsnfac13 = new System.Windows.Forms.Button();
+            this.btnsnfac12 = new System.Windows.Forms.Button();
+            this.btnsnfac11 = new System.Windows.Forms.Button();
+            this.btnsnfac10 = new System.Windows.Forms.Button();
+            this.btnsnfac9 = new System.Windows.Forms.Button();
+            this.btnsnfac8 = new System.Windows.Forms.Button();
+            this.btnsnfac7 = new System.Windows.Forms.Button();
+            this.btnsnfac6 = new System.Windows.Forms.Button();
+            this.btnsnfac5 = new System.Windows.Forms.Button();
+            this.btnsnfac4 = new System.Windows.Forms.Button();
+            this.btnsnfac3 = new System.Windows.Forms.Button();
+            this.btnsnfac2 = new System.Windows.Forms.Button();
+            this.txtsnf15 = new System.Windows.Forms.TextBox();
+            this.txtsnf14 = new System.Windows.Forms.TextBox();
+            this.txtsnf13 = new System.Windows.Forms.TextBox();
+            this.txtsnf12 = new System.Windows.Forms.TextBox();
+            this.txtsnf11 = new System.Windows.Forms.TextBox();
+            this.txtsnf10 = new System.Windows.Forms.TextBox();
+            this.txtsnf9 = new System.Windows.Forms.TextBox();
+            this.txtsnf8 = new System.Windows.Forms.TextBox();
+            this.txtsnf7 = new System.Windows.Forms.TextBox();
+            this.txtsnf6 = new System.Windows.Forms.TextBox();
+            this.txtsnf5 = new System.Windows.Forms.TextBox();
+            this.txtsnf4 = new System.Windows.Forms.TextBox();
+            this.txtsnf3 = new System.Windows.Forms.TextBox();
+            this.txtsnf2 = new System.Windows.Forms.TextBox();
+            this.lblSinif15 = new System.Windows.Forms.Label();
+            this.lblSinif14 = new System.Windows.Forms.Label();
+            this.lblSinif13 = new System.Windows.Forms.Label();
+            this.lblSinif12 = new System.Windows.Forms.Label();
+            this.lblSinif11 = new System.Windows.Forms.Label();
+            this.lblSinif10 = new System.Windows.Forms.Label();
+            this.lblSinif9 = new System.Windows.Forms.Label();
+            this.lblSinif8 = new System.Windows.Forms.Label();
+            this.lblSinif7 = new System.Windows.Forms.Label();
+            this.lblSinif6 = new System.Windows.Forms.Label();
+            this.lblSinif5 = new System.Windows.Forms.Label();
+            this.lblSinif4 = new System.Windows.Forms.Label();
+            this.lblSinif3 = new System.Windows.Forms.Label();
+            this.lblSinif2 = new System.Windows.Forms.Label();
+            this.lblSinif1 = new System.Windows.Forms.Label();
+            this.ultraTabPageControl4 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.gridTema = new DevExpress.XtraGrid.GridControl();
+            this.ViewTema = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.cmblookup = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
+            this.ultraTabControl1 = new Infragistics.Win.UltraWinTabControl.UltraTabControl();
+            this.ultraTabSharedControlsPage1 = new Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCik = new DevExpress.XtraEditors.SimpleButton();
+            this.btnUzunNot = new DevExpress.XtraEditors.SimpleButton();
+            this.btnfiyatGor = new DevExpress.XtraEditors.SimpleButton();
+            this.btnFiyatGir = new DevExpress.XtraEditors.SimpleButton();
+            this.btnBarkod = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAciklama = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSil = new DevExpress.XtraEditors.SimpleButton();
+            this.btnYeni = new DevExpress.XtraEditors.SimpleButton();
+            this.btnKaydetYeni = new DevExpress.XtraEditors.SimpleButton();
             this.ultraPanel1.ClientArea.SuspendLayout();
             this.ultraPanel1.SuspendLayout();
             this.ultraTabPageControl1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.ultraTabPageControl2.SuspendLayout();
-            this.ultraTabPageControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ultraTabControl1)).BeginInit();
-            this.ultraTabControl1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.pnlRenkBedenOlan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl7)).BeginInit();
             this.panelControl7.SuspendLayout();
+            this.ultraTabPageControl3.SuspendLayout();
+            this.ultraTabPageControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridTema)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ViewTema)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmblookup)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraTabControl1)).BeginInit();
+            this.ultraTabControl1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ultraPanel1
@@ -165,7 +169,7 @@
             this.ultraPanel1.ClientArea.Controls.Add(this.simpleButton18);
             this.ultraPanel1.ClientArea.Controls.Add(this.ultraButton2);
             this.ultraPanel1.ClientArea.Controls.Add(this.label1);
-            this.ultraPanel1.ClientArea.Controls.Add(this.ultraButton1);
+            this.ultraPanel1.ClientArea.Controls.Add(this.btnStandartAc);
             this.ultraPanel1.ClientArea.Controls.Add(this.txtStokKodu);
             this.ultraPanel1.ClientArea.Controls.Add(this.btnStokBul);
             resources.ApplyResources(this.ultraPanel1, "ultraPanel1");
@@ -188,17 +192,18 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // ultraButton1
+            // btnStandartAc
             // 
             appearance1.BackColor = System.Drawing.Color.Aqua;
             appearance1.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             appearance1.BackColorAlpha = Infragistics.Win.Alpha.Opaque;
             appearance1.BorderAlpha = Infragistics.Win.Alpha.Opaque;
             appearance1.BorderColor3DBase = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ultraButton1.Appearance = appearance1;
-            this.ultraButton1.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Button3D;
-            resources.ApplyResources(this.ultraButton1, "ultraButton1");
-            this.ultraButton1.Name = "ultraButton1";
+            this.btnStandartAc.Appearance = appearance1;
+            this.btnStandartAc.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Button3D;
+            resources.ApplyResources(this.btnStandartAc, "btnStandartAc");
+            this.btnStandartAc.Name = "btnStandartAc";
+            this.btnStandartAc.Click += new System.EventHandler(this.ultraButton1_Click);
             // 
             // txtStokKodu
             // 
@@ -210,6 +215,7 @@
             resources.ApplyResources(this.btnStokBul, "btnStokBul");
             this.btnStokBul.Name = "btnStokBul";
             this.btnStokBul.UseVisualStyleBackColor = true;
+            this.btnStokBul.Click += new System.EventHandler(this.btnStokBul_Click);
             // 
             // ultraTabPageControl1
             // 
@@ -318,6 +324,11 @@
             resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
             // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
@@ -342,6 +353,12 @@
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
+            // 
+            // cmbKDV
+            // 
+            this.cmbKDV.FormattingEnabled = true;
+            resources.ApplyResources(this.cmbKDV, "cmbKDV");
+            this.cmbKDV.Name = "cmbKDV";
             // 
             // cmbBirim2
             // 
@@ -378,6 +395,45 @@
             this.ultraTabPageControl2.Controls.Add(this.pnlRenkBedenOlan);
             resources.ApplyResources(this.ultraTabPageControl2, "ultraTabPageControl2");
             this.ultraTabPageControl2.Name = "ultraTabPageControl2";
+            // 
+            // pnlRenkBedenOlan
+            // 
+            this.pnlRenkBedenOlan.Controls.Add(this.pnlRenkBeden);
+            this.pnlRenkBedenOlan.Controls.Add(this.dataGridView1);
+            this.pnlRenkBedenOlan.Controls.Add(this.panelControl7);
+            resources.ApplyResources(this.pnlRenkBedenOlan, "pnlRenkBedenOlan");
+            this.pnlRenkBedenOlan.Name = "pnlRenkBedenOlan";
+            // 
+            // pnlRenkBeden
+            // 
+            resources.ApplyResources(this.pnlRenkBeden, "pnlRenkBeden");
+            this.pnlRenkBeden.Name = "pnlRenkBeden";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
+            this.dataGridView1.Name = "dataGridView1";
+            // 
+            // panelControl7
+            // 
+            this.panelControl7.Controls.Add(this.simpleButton17);
+            this.panelControl7.Controls.Add(this.simpleButton19);
+            resources.ApplyResources(this.panelControl7, "panelControl7");
+            this.panelControl7.Name = "panelControl7";
+            // 
+            // simpleButton17
+            // 
+            resources.ApplyResources(this.simpleButton17, "simpleButton17");
+            this.simpleButton17.Name = "simpleButton17";
+            // 
+            // simpleButton19
+            // 
+            resources.ApplyResources(this.simpleButton19, "simpleButton19");
+            this.simpleButton19.Name = "simpleButton19";
+            this.simpleButton19.Click += new System.EventHandler(this.simpleButton19_Click);
             // 
             // ultraTabPageControl3
             // 
@@ -428,12 +484,367 @@
             this.ultraTabPageControl3.Controls.Add(this.lblSinif1);
             resources.ApplyResources(this.ultraTabPageControl3, "ultraTabPageControl3");
             this.ultraTabPageControl3.Name = "ultraTabPageControl3";
-            this.ultraTabPageControl3.Paint += new System.Windows.Forms.PaintEventHandler(this.ultraTabPageControl3_Paint);
+            // 
+            // btnsnfac1
+            // 
+            resources.ApplyResources(this.btnsnfac1, "btnsnfac1");
+            this.btnsnfac1.Name = "btnsnfac1";
+            this.btnsnfac1.UseVisualStyleBackColor = true;
+            this.btnsnfac1.Click += new System.EventHandler(this.btnsnfac1_Click);
+            // 
+            // txtsnf1
+            // 
+            resources.ApplyResources(this.txtsnf1, "txtsnf1");
+            this.txtsnf1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtsnf1.Name = "txtsnf1";
+            this.txtsnf1.ReadOnly = true;
+            // 
+            // btnsnfac15
+            // 
+            resources.ApplyResources(this.btnsnfac15, "btnsnfac15");
+            this.btnsnfac15.Name = "btnsnfac15";
+            this.btnsnfac15.UseVisualStyleBackColor = true;
+            this.btnsnfac15.Click += new System.EventHandler(this.btnsnfac15_Click);
+            // 
+            // btnsnfac14
+            // 
+            resources.ApplyResources(this.btnsnfac14, "btnsnfac14");
+            this.btnsnfac14.Name = "btnsnfac14";
+            this.btnsnfac14.UseVisualStyleBackColor = true;
+            this.btnsnfac14.Click += new System.EventHandler(this.btnsnfac14_Click);
+            // 
+            // btnsnfac13
+            // 
+            resources.ApplyResources(this.btnsnfac13, "btnsnfac13");
+            this.btnsnfac13.Name = "btnsnfac13";
+            this.btnsnfac13.UseVisualStyleBackColor = true;
+            this.btnsnfac13.Click += new System.EventHandler(this.btnsnfac13_Click);
+            // 
+            // btnsnfac12
+            // 
+            resources.ApplyResources(this.btnsnfac12, "btnsnfac12");
+            this.btnsnfac12.Name = "btnsnfac12";
+            this.btnsnfac12.UseVisualStyleBackColor = true;
+            this.btnsnfac12.Click += new System.EventHandler(this.btnsnfac12_Click);
+            // 
+            // btnsnfac11
+            // 
+            resources.ApplyResources(this.btnsnfac11, "btnsnfac11");
+            this.btnsnfac11.Name = "btnsnfac11";
+            this.btnsnfac11.UseVisualStyleBackColor = true;
+            this.btnsnfac11.Click += new System.EventHandler(this.btnsnfac11_Click);
+            // 
+            // btnsnfac10
+            // 
+            resources.ApplyResources(this.btnsnfac10, "btnsnfac10");
+            this.btnsnfac10.Name = "btnsnfac10";
+            this.btnsnfac10.UseVisualStyleBackColor = true;
+            this.btnsnfac10.Click += new System.EventHandler(this.btnsnfac10_Click);
+            // 
+            // btnsnfac9
+            // 
+            resources.ApplyResources(this.btnsnfac9, "btnsnfac9");
+            this.btnsnfac9.Name = "btnsnfac9";
+            this.btnsnfac9.UseVisualStyleBackColor = true;
+            this.btnsnfac9.Click += new System.EventHandler(this.btnsnfac9_Click);
+            // 
+            // btnsnfac8
+            // 
+            resources.ApplyResources(this.btnsnfac8, "btnsnfac8");
+            this.btnsnfac8.Name = "btnsnfac8";
+            this.btnsnfac8.UseVisualStyleBackColor = true;
+            this.btnsnfac8.Click += new System.EventHandler(this.btnsnfac8_Click);
+            // 
+            // btnsnfac7
+            // 
+            resources.ApplyResources(this.btnsnfac7, "btnsnfac7");
+            this.btnsnfac7.Name = "btnsnfac7";
+            this.btnsnfac7.UseVisualStyleBackColor = true;
+            this.btnsnfac7.Click += new System.EventHandler(this.btnsnfac7_Click);
+            // 
+            // btnsnfac6
+            // 
+            resources.ApplyResources(this.btnsnfac6, "btnsnfac6");
+            this.btnsnfac6.Name = "btnsnfac6";
+            this.btnsnfac6.UseVisualStyleBackColor = true;
+            this.btnsnfac6.Click += new System.EventHandler(this.btnsnfac6_Click);
+            // 
+            // btnsnfac5
+            // 
+            resources.ApplyResources(this.btnsnfac5, "btnsnfac5");
+            this.btnsnfac5.Name = "btnsnfac5";
+            this.btnsnfac5.UseVisualStyleBackColor = true;
+            this.btnsnfac5.Click += new System.EventHandler(this.btnsnfac5_Click);
+            // 
+            // btnsnfac4
+            // 
+            resources.ApplyResources(this.btnsnfac4, "btnsnfac4");
+            this.btnsnfac4.Name = "btnsnfac4";
+            this.btnsnfac4.UseVisualStyleBackColor = true;
+            this.btnsnfac4.Click += new System.EventHandler(this.btnsnfac4_Click);
+            // 
+            // btnsnfac3
+            // 
+            resources.ApplyResources(this.btnsnfac3, "btnsnfac3");
+            this.btnsnfac3.Name = "btnsnfac3";
+            this.btnsnfac3.UseVisualStyleBackColor = true;
+            this.btnsnfac3.Click += new System.EventHandler(this.btnsnfac3_Click);
+            // 
+            // btnsnfac2
+            // 
+            resources.ApplyResources(this.btnsnfac2, "btnsnfac2");
+            this.btnsnfac2.Name = "btnsnfac2";
+            this.btnsnfac2.UseVisualStyleBackColor = true;
+            this.btnsnfac2.Click += new System.EventHandler(this.btnsnfac2_Click);
+            // 
+            // txtsnf15
+            // 
+            this.txtsnf15.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf15, "txtsnf15");
+            this.txtsnf15.Name = "txtsnf15";
+            this.txtsnf15.ReadOnly = true;
+            // 
+            // txtsnf14
+            // 
+            this.txtsnf14.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf14, "txtsnf14");
+            this.txtsnf14.Name = "txtsnf14";
+            this.txtsnf14.ReadOnly = true;
+            // 
+            // txtsnf13
+            // 
+            this.txtsnf13.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf13, "txtsnf13");
+            this.txtsnf13.Name = "txtsnf13";
+            this.txtsnf13.ReadOnly = true;
+            // 
+            // txtsnf12
+            // 
+            this.txtsnf12.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf12, "txtsnf12");
+            this.txtsnf12.Name = "txtsnf12";
+            this.txtsnf12.ReadOnly = true;
+            // 
+            // txtsnf11
+            // 
+            this.txtsnf11.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf11, "txtsnf11");
+            this.txtsnf11.Name = "txtsnf11";
+            this.txtsnf11.ReadOnly = true;
+            // 
+            // txtsnf10
+            // 
+            this.txtsnf10.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf10, "txtsnf10");
+            this.txtsnf10.Name = "txtsnf10";
+            this.txtsnf10.ReadOnly = true;
+            // 
+            // txtsnf9
+            // 
+            this.txtsnf9.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf9, "txtsnf9");
+            this.txtsnf9.Name = "txtsnf9";
+            this.txtsnf9.ReadOnly = true;
+            // 
+            // txtsnf8
+            // 
+            this.txtsnf8.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf8, "txtsnf8");
+            this.txtsnf8.Name = "txtsnf8";
+            this.txtsnf8.ReadOnly = true;
+            // 
+            // txtsnf7
+            // 
+            this.txtsnf7.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf7, "txtsnf7");
+            this.txtsnf7.Name = "txtsnf7";
+            this.txtsnf7.ReadOnly = true;
+            // 
+            // txtsnf6
+            // 
+            this.txtsnf6.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf6, "txtsnf6");
+            this.txtsnf6.Name = "txtsnf6";
+            this.txtsnf6.ReadOnly = true;
+            // 
+            // txtsnf5
+            // 
+            this.txtsnf5.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf5, "txtsnf5");
+            this.txtsnf5.Name = "txtsnf5";
+            this.txtsnf5.ReadOnly = true;
+            // 
+            // txtsnf4
+            // 
+            this.txtsnf4.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf4, "txtsnf4");
+            this.txtsnf4.Name = "txtsnf4";
+            this.txtsnf4.ReadOnly = true;
+            // 
+            // txtsnf3
+            // 
+            this.txtsnf3.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf3, "txtsnf3");
+            this.txtsnf3.Name = "txtsnf3";
+            this.txtsnf3.ReadOnly = true;
+            // 
+            // txtsnf2
+            // 
+            this.txtsnf2.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.txtsnf2, "txtsnf2");
+            this.txtsnf2.Name = "txtsnf2";
+            this.txtsnf2.ReadOnly = true;
+            // 
+            // lblSinif15
+            // 
+            this.lblSinif15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif15, "lblSinif15");
+            this.lblSinif15.Name = "lblSinif15";
+            // 
+            // lblSinif14
+            // 
+            this.lblSinif14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif14, "lblSinif14");
+            this.lblSinif14.Name = "lblSinif14";
+            // 
+            // lblSinif13
+            // 
+            this.lblSinif13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif13, "lblSinif13");
+            this.lblSinif13.Name = "lblSinif13";
+            // 
+            // lblSinif12
+            // 
+            this.lblSinif12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif12, "lblSinif12");
+            this.lblSinif12.Name = "lblSinif12";
+            // 
+            // lblSinif11
+            // 
+            this.lblSinif11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif11, "lblSinif11");
+            this.lblSinif11.Name = "lblSinif11";
+            // 
+            // lblSinif10
+            // 
+            this.lblSinif10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif10, "lblSinif10");
+            this.lblSinif10.Name = "lblSinif10";
+            // 
+            // lblSinif9
+            // 
+            this.lblSinif9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif9, "lblSinif9");
+            this.lblSinif9.Name = "lblSinif9";
+            // 
+            // lblSinif8
+            // 
+            this.lblSinif8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif8, "lblSinif8");
+            this.lblSinif8.Name = "lblSinif8";
+            // 
+            // lblSinif7
+            // 
+            this.lblSinif7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif7, "lblSinif7");
+            this.lblSinif7.Name = "lblSinif7";
+            // 
+            // lblSinif6
+            // 
+            this.lblSinif6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif6, "lblSinif6");
+            this.lblSinif6.Name = "lblSinif6";
+            // 
+            // lblSinif5
+            // 
+            this.lblSinif5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif5, "lblSinif5");
+            this.lblSinif5.Name = "lblSinif5";
+            // 
+            // lblSinif4
+            // 
+            this.lblSinif4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif4, "lblSinif4");
+            this.lblSinif4.Name = "lblSinif4";
+            // 
+            // lblSinif3
+            // 
+            this.lblSinif3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif3, "lblSinif3");
+            this.lblSinif3.Name = "lblSinif3";
+            // 
+            // lblSinif2
+            // 
+            this.lblSinif2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif2, "lblSinif2");
+            this.lblSinif2.Name = "lblSinif2";
+            // 
+            // lblSinif1
+            // 
+            this.lblSinif1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.lblSinif1, "lblSinif1");
+            this.lblSinif1.Name = "lblSinif1";
             // 
             // ultraTabPageControl4
             // 
+            this.ultraTabPageControl4.Controls.Add(this.gridTema);
             resources.ApplyResources(this.ultraTabPageControl4, "ultraTabPageControl4");
             this.ultraTabPageControl4.Name = "ultraTabPageControl4";
+            // 
+            // gridTema
+            // 
+            resources.ApplyResources(this.gridTema, "gridTema");
+            this.gridTema.MainView = this.ViewTema;
+            this.gridTema.Name = "gridTema";
+            this.gridTema.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.cmblookup});
+            this.gridTema.UseEmbeddedNavigator = true;
+            this.gridTema.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.ViewTema});
+            // 
+            // ViewTema
+            // 
+            this.ViewTema.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn1,
+            this.gridColumn2,
+            this.gridColumn3,
+            this.gridColumn4});
+            this.ViewTema.GridControl = this.gridTema;
+            this.ViewTema.Name = "ViewTema";
+            this.ViewTema.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom;
+            this.ViewTema.OptionsView.ShowGroupPanel = false;
+            // 
+            // gridColumn1
+            // 
+            resources.ApplyResources(this.gridColumn1, "gridColumn1");
+            this.gridColumn1.FieldName = "sModel";
+            this.gridColumn1.Name = "gridColumn1";
+            // 
+            // gridColumn2
+            // 
+            resources.ApplyResources(this.gridColumn2, "gridColumn2");
+            this.gridColumn2.FieldName = "sRenk";
+            this.gridColumn2.Name = "gridColumn2";
+            // 
+            // gridColumn3
+            // 
+            resources.ApplyResources(this.gridColumn3, "gridColumn3");
+            this.gridColumn3.FieldName = "sRenkAdi";
+            this.gridColumn3.Name = "gridColumn3";
+            // 
+            // gridColumn4
+            // 
+            resources.ApplyResources(this.gridColumn4, "gridColumn4");
+            this.gridColumn4.ColumnEdit = this.cmblookup;
+            this.gridColumn4.FieldName = "sTemaKodu";
+            this.gridColumn4.Name = "gridColumn4";
+            // 
+            // cmblookup
+            // 
+            resources.ApplyResources(this.cmblookup, "cmblookup");
+            this.cmblookup.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(((DevExpress.XtraEditors.Controls.ButtonPredefines)(resources.GetObject("cmblookup.Buttons"))))});
+            this.cmblookup.Name = "cmblookup";
             // 
             // ultraTabControl1
             // 
@@ -473,483 +884,117 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.simpleButton16);
-            this.panel1.Controls.Add(this.simpleButton15);
-            this.panel1.Controls.Add(this.simpleButton14);
-            this.panel1.Controls.Add(this.simpleButton13);
-            this.panel1.Controls.Add(this.simpleButton12);
-            this.panel1.Controls.Add(this.simpleButton11);
-            this.panel1.Controls.Add(this.simpleButton10);
-            this.panel1.Controls.Add(this.simpleButton9);
-            this.panel1.Controls.Add(this.simpleButton8);
-            this.panel1.Controls.Add(this.simpleButton7);
-            this.panel1.Controls.Add(this.simpleButton6);
-            this.panel1.Controls.Add(this.simpleButton5);
-            this.panel1.Controls.Add(this.simpleButton4);
-            this.panel1.Controls.Add(this.simpleButton3);
-            this.panel1.Controls.Add(this.simpleButton2);
-            this.panel1.Controls.Add(this.simpleButton1);
+            this.panel1.Controls.Add(this.btnCik);
+            this.panel1.Controls.Add(this.btnUzunNot);
+            this.panel1.Controls.Add(this.btnfiyatGor);
+            this.panel1.Controls.Add(this.btnFiyatGir);
+            this.panel1.Controls.Add(this.btnBarkod);
+            this.panel1.Controls.Add(this.btnAciklama);
+            this.panel1.Controls.Add(this.btnSil);
+            this.panel1.Controls.Add(this.btnYeni);
+            this.panel1.Controls.Add(this.btnKaydetYeni);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
-            // simpleButton16
-            // 
-            this.simpleButton16.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton16.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton16, "simpleButton16");
-            this.simpleButton16.Name = "simpleButton16";
-            // 
-            // simpleButton15
-            // 
-            this.simpleButton15.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton15.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton15, "simpleButton15");
-            this.simpleButton15.Name = "simpleButton15";
-            // 
-            // simpleButton14
-            // 
-            this.simpleButton14.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton14.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton14, "simpleButton14");
-            this.simpleButton14.Name = "simpleButton14";
-            // 
-            // simpleButton13
-            // 
-            this.simpleButton13.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton13.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton13, "simpleButton13");
-            this.simpleButton13.Name = "simpleButton13";
-            // 
-            // simpleButton12
-            // 
-            this.simpleButton12.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton12.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton12, "simpleButton12");
-            this.simpleButton12.Name = "simpleButton12";
-            // 
-            // simpleButton11
-            // 
-            this.simpleButton11.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton11.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton11, "simpleButton11");
-            this.simpleButton11.Name = "simpleButton11";
-            // 
-            // simpleButton10
-            // 
-            this.simpleButton10.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton10.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton10, "simpleButton10");
-            this.simpleButton10.Name = "simpleButton10";
-            // 
-            // simpleButton9
-            // 
-            this.simpleButton9.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton9.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton9, "simpleButton9");
-            this.simpleButton9.Name = "simpleButton9";
-            // 
-            // simpleButton8
-            // 
-            this.simpleButton8.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton8.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton8, "simpleButton8");
-            this.simpleButton8.Name = "simpleButton8";
-            // 
-            // simpleButton7
-            // 
-            this.simpleButton7.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton7.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton7, "simpleButton7");
-            this.simpleButton7.Name = "simpleButton7";
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton6.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton6, "simpleButton6");
-            this.simpleButton6.Name = "simpleButton6";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton5.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton5, "simpleButton5");
-            this.simpleButton5.Name = "simpleButton5";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton4.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton4, "simpleButton4");
-            this.simpleButton4.Name = "simpleButton4";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton3.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton3, "simpleButton3");
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton2.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton2, "simpleButton2");
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
-            this.simpleButton1.Appearance.Options.UseBackColor = true;
-            resources.ApplyResources(this.simpleButton1, "simpleButton1");
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
-            // 
-            // label7
-            // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
-            // 
-            // cmbKDV
-            // 
-            this.cmbKDV.FormattingEnabled = true;
-            resources.ApplyResources(this.cmbKDV, "cmbKDV");
-            this.cmbKDV.Name = "cmbKDV";
-            // 
-            // lblSinif2
-            // 
-            this.lblSinif2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif2, "lblSinif2");
-            this.lblSinif2.Name = "lblSinif2";
-            // 
-            // lblSinif3
-            // 
-            this.lblSinif3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif3, "lblSinif3");
-            this.lblSinif3.Name = "lblSinif3";
-            // 
-            // lblSinif4
-            // 
-            this.lblSinif4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif4, "lblSinif4");
-            this.lblSinif4.Name = "lblSinif4";
-            // 
-            // lblSinif5
-            // 
-            this.lblSinif5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif5, "lblSinif5");
-            this.lblSinif5.Name = "lblSinif5";
-            // 
-            // lblSinif6
-            // 
-            this.lblSinif6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif6, "lblSinif6");
-            this.lblSinif6.Name = "lblSinif6";
-            // 
-            // lblSinif7
-            // 
-            this.lblSinif7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif7, "lblSinif7");
-            this.lblSinif7.Name = "lblSinif7";
-            // 
-            // lblSinif8
-            // 
-            this.lblSinif8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif8, "lblSinif8");
-            this.lblSinif8.Name = "lblSinif8";
-            // 
-            // lblSinif9
-            // 
-            this.lblSinif9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif9, "lblSinif9");
-            this.lblSinif9.Name = "lblSinif9";
-            // 
-            // lblSinif10
-            // 
-            this.lblSinif10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif10, "lblSinif10");
-            this.lblSinif10.Name = "lblSinif10";
-            // 
-            // lblSinif11
-            // 
-            this.lblSinif11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif11, "lblSinif11");
-            this.lblSinif11.Name = "lblSinif11";
-            // 
-            // lblSinif12
-            // 
-            this.lblSinif12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif12, "lblSinif12");
-            this.lblSinif12.Name = "lblSinif12";
-            // 
-            // lblSinif13
-            // 
-            this.lblSinif13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif13, "lblSinif13");
-            this.lblSinif13.Name = "lblSinif13";
-            // 
-            // lblSinif14
-            // 
-            this.lblSinif14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif14, "lblSinif14");
-            this.lblSinif14.Name = "lblSinif14";
-            // 
-            // lblSinif15
-            // 
-            this.lblSinif15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif15, "lblSinif15");
-            this.lblSinif15.Name = "lblSinif15";
-            // 
-            // pnlRenkBedenOlan
-            // 
-            this.pnlRenkBedenOlan.Controls.Add(this.pnlRenkBeden);
-            this.pnlRenkBedenOlan.Controls.Add(this.dataGridView1);
-            this.pnlRenkBedenOlan.Controls.Add(this.panelControl7);
-            resources.ApplyResources(this.pnlRenkBedenOlan, "pnlRenkBedenOlan");
-            this.pnlRenkBedenOlan.Name = "pnlRenkBedenOlan";
-            // 
-            // pnlRenkBeden
-            // 
-            resources.ApplyResources(this.pnlRenkBeden, "pnlRenkBeden");
-            this.pnlRenkBeden.Name = "pnlRenkBeden";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            resources.ApplyResources(this.dataGridView1, "dataGridView1");
-            this.dataGridView1.Name = "dataGridView1";
-            // 
-            // panelControl7
-            // 
-            this.panelControl7.Controls.Add(this.simpleButton17);
-            this.panelControl7.Controls.Add(this.simpleButton19);
-            resources.ApplyResources(this.panelControl7, "panelControl7");
-            this.panelControl7.Name = "panelControl7";
-            // 
-            // simpleButton17
-            // 
-            resources.ApplyResources(this.simpleButton17, "simpleButton17");
-            this.simpleButton17.Name = "simpleButton17";
-            // 
-            // simpleButton19
-            // 
-            resources.ApplyResources(this.simpleButton19, "simpleButton19");
-            this.simpleButton19.Name = "simpleButton19";
-            this.simpleButton19.Click += new System.EventHandler(this.simpleButton19_Click);
-            // 
-            // lblSinif1
-            // 
-            this.lblSinif1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.lblSinif1, "lblSinif1");
-            this.lblSinif1.Name = "lblSinif1";
-            // 
-            // txtsnf2
-            // 
-            this.txtsnf2.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf2, "txtsnf2");
-            this.txtsnf2.Name = "txtsnf2";
-            this.txtsnf2.ReadOnly = true;
-            // 
-            // txtsnf3
-            // 
-            this.txtsnf3.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf3, "txtsnf3");
-            this.txtsnf3.Name = "txtsnf3";
-            this.txtsnf3.ReadOnly = true;
-            // 
-            // txtsnf4
-            // 
-            this.txtsnf4.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf4, "txtsnf4");
-            this.txtsnf4.Name = "txtsnf4";
-            this.txtsnf4.ReadOnly = true;
-            // 
-            // txtsnf5
-            // 
-            this.txtsnf5.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf5, "txtsnf5");
-            this.txtsnf5.Name = "txtsnf5";
-            this.txtsnf5.ReadOnly = true;
-            // 
-            // txtsnf6
-            // 
-            this.txtsnf6.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf6, "txtsnf6");
-            this.txtsnf6.Name = "txtsnf6";
-            this.txtsnf6.ReadOnly = true;
-            // 
-            // txtsnf7
-            // 
-            this.txtsnf7.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf7, "txtsnf7");
-            this.txtsnf7.Name = "txtsnf7";
-            this.txtsnf7.ReadOnly = true;
-            // 
-            // txtsnf8
-            // 
-            this.txtsnf8.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf8, "txtsnf8");
-            this.txtsnf8.Name = "txtsnf8";
-            this.txtsnf8.ReadOnly = true;
-            // 
-            // txtsnf9
-            // 
-            this.txtsnf9.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf9, "txtsnf9");
-            this.txtsnf9.Name = "txtsnf9";
-            this.txtsnf9.ReadOnly = true;
-            // 
-            // txtsnf10
-            // 
-            this.txtsnf10.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf10, "txtsnf10");
-            this.txtsnf10.Name = "txtsnf10";
-            this.txtsnf10.ReadOnly = true;
-            // 
-            // txtsnf11
-            // 
-            this.txtsnf11.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf11, "txtsnf11");
-            this.txtsnf11.Name = "txtsnf11";
-            this.txtsnf11.ReadOnly = true;
-            // 
-            // txtsnf12
-            // 
-            this.txtsnf12.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf12, "txtsnf12");
-            this.txtsnf12.Name = "txtsnf12";
-            this.txtsnf12.ReadOnly = true;
-            // 
-            // txtsnf13
-            // 
-            this.txtsnf13.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf13, "txtsnf13");
-            this.txtsnf13.Name = "txtsnf13";
-            this.txtsnf13.ReadOnly = true;
-            // 
-            // txtsnf14
-            // 
-            this.txtsnf14.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf14, "txtsnf14");
-            this.txtsnf14.Name = "txtsnf14";
-            this.txtsnf14.ReadOnly = true;
-            // 
-            // txtsnf15
-            // 
-            this.txtsnf15.Cursor = System.Windows.Forms.Cursors.Default;
-            resources.ApplyResources(this.txtsnf15, "txtsnf15");
-            this.txtsnf15.Name = "txtsnf15";
-            this.txtsnf15.ReadOnly = true;
-            // 
-            // btnsnfac2
-            // 
-            resources.ApplyResources(this.btnsnfac2, "btnsnfac2");
-            this.btnsnfac2.Name = "btnsnfac2";
-            this.btnsnfac2.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac3
-            // 
-            resources.ApplyResources(this.btnsnfac3, "btnsnfac3");
-            this.btnsnfac3.Name = "btnsnfac3";
-            this.btnsnfac3.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac4
-            // 
-            resources.ApplyResources(this.btnsnfac4, "btnsnfac4");
-            this.btnsnfac4.Name = "btnsnfac4";
-            this.btnsnfac4.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac5
-            // 
-            resources.ApplyResources(this.btnsnfac5, "btnsnfac5");
-            this.btnsnfac5.Name = "btnsnfac5";
-            this.btnsnfac5.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac6
-            // 
-            resources.ApplyResources(this.btnsnfac6, "btnsnfac6");
-            this.btnsnfac6.Name = "btnsnfac6";
-            this.btnsnfac6.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac7
-            // 
-            resources.ApplyResources(this.btnsnfac7, "btnsnfac7");
-            this.btnsnfac7.Name = "btnsnfac7";
-            this.btnsnfac7.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac8
-            // 
-            resources.ApplyResources(this.btnsnfac8, "btnsnfac8");
-            this.btnsnfac8.Name = "btnsnfac8";
-            this.btnsnfac8.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac9
-            // 
-            resources.ApplyResources(this.btnsnfac9, "btnsnfac9");
-            this.btnsnfac9.Name = "btnsnfac9";
-            this.btnsnfac9.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac10
-            // 
-            resources.ApplyResources(this.btnsnfac10, "btnsnfac10");
-            this.btnsnfac10.Name = "btnsnfac10";
-            this.btnsnfac10.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac11
-            // 
-            resources.ApplyResources(this.btnsnfac11, "btnsnfac11");
-            this.btnsnfac11.Name = "btnsnfac11";
-            this.btnsnfac11.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac12
-            // 
-            resources.ApplyResources(this.btnsnfac12, "btnsnfac12");
-            this.btnsnfac12.Name = "btnsnfac12";
-            this.btnsnfac12.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac13
-            // 
-            resources.ApplyResources(this.btnsnfac13, "btnsnfac13");
-            this.btnsnfac13.Name = "btnsnfac13";
-            this.btnsnfac13.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac14
-            // 
-            resources.ApplyResources(this.btnsnfac14, "btnsnfac14");
-            this.btnsnfac14.Name = "btnsnfac14";
-            this.btnsnfac14.UseVisualStyleBackColor = true;
-            // 
-            // btnsnfac15
-            // 
-            resources.ApplyResources(this.btnsnfac15, "btnsnfac15");
-            this.btnsnfac15.Name = "btnsnfac15";
-            this.btnsnfac15.UseVisualStyleBackColor = true;
-            // 
-            // txtsnf1
-            // 
-            resources.ApplyResources(this.txtsnf1, "txtsnf1");
-            this.txtsnf1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.txtsnf1.Name = "txtsnf1";
-            this.txtsnf1.ReadOnly = true;
-            // 
-            // btnsnfac1
-            // 
-            resources.ApplyResources(this.btnsnfac1, "btnsnfac1");
-            this.btnsnfac1.Name = "btnsnfac1";
-            this.btnsnfac1.UseVisualStyleBackColor = true;
-            // 
-            // Frm_Stok
+            // btnCik
+            // 
+            this.btnCik.Appearance.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnCik.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnCik.Appearance.Font")));
+            this.btnCik.Appearance.Options.UseBackColor = true;
+            this.btnCik.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnCik, "btnCik");
+            this.btnCik.Name = "btnCik";
+            this.btnCik.Click += new System.EventHandler(this.btnCik_Click);
+            // 
+            // btnUzunNot
+            // 
+            this.btnUzunNot.Appearance.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnUzunNot.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnUzunNot.Appearance.Font")));
+            this.btnUzunNot.Appearance.Options.UseBackColor = true;
+            this.btnUzunNot.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnUzunNot, "btnUzunNot");
+            this.btnUzunNot.Name = "btnUzunNot";
+            this.btnUzunNot.Click += new System.EventHandler(this.btnUzunNot_Click);
+            // 
+            // btnfiyatGor
+            // 
+            this.btnfiyatGor.Appearance.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnfiyatGor.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnfiyatGor.Appearance.Font")));
+            this.btnfiyatGor.Appearance.Options.UseBackColor = true;
+            this.btnfiyatGor.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnfiyatGor, "btnfiyatGor");
+            this.btnfiyatGor.Name = "btnfiyatGor";
+            this.btnfiyatGor.Click += new System.EventHandler(this.btnfiyatGor_Click);
+            // 
+            // btnFiyatGir
+            // 
+            this.btnFiyatGir.Appearance.BackColor = System.Drawing.SystemColors.GrayText;
+            this.btnFiyatGir.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnFiyatGir.Appearance.Font")));
+            this.btnFiyatGir.Appearance.Options.UseBackColor = true;
+            this.btnFiyatGir.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnFiyatGir, "btnFiyatGir");
+            this.btnFiyatGir.Name = "btnFiyatGir";
+            this.btnFiyatGir.Click += new System.EventHandler(this.btnFiyatGir_Click);
+            // 
+            // btnBarkod
+            // 
+            this.btnBarkod.Appearance.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnBarkod.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnBarkod.Appearance.Font")));
+            this.btnBarkod.Appearance.Options.UseBackColor = true;
+            this.btnBarkod.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnBarkod, "btnBarkod");
+            this.btnBarkod.Name = "btnBarkod";
+            this.btnBarkod.Click += new System.EventHandler(this.btnBarkod_Click);
+            // 
+            // btnAciklama
+            // 
+            this.btnAciklama.Appearance.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAciklama.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnAciklama.Appearance.Font")));
+            this.btnAciklama.Appearance.Options.UseBackColor = true;
+            this.btnAciklama.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnAciklama, "btnAciklama");
+            this.btnAciklama.Name = "btnAciklama";
+            this.btnAciklama.Click += new System.EventHandler(this.btnAciklama_Click);
+            // 
+            // btnSil
+            // 
+            this.btnSil.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Danger;
+            this.btnSil.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnSil.Appearance.Font")));
+            this.btnSil.Appearance.Options.UseBackColor = true;
+            this.btnSil.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnSil, "btnSil");
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
+            // 
+            // btnYeni
+            // 
+            this.btnYeni.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
+            this.btnYeni.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnYeni.Appearance.Font")));
+            this.btnYeni.Appearance.Options.UseBackColor = true;
+            this.btnYeni.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnYeni, "btnYeni");
+            this.btnYeni.Name = "btnYeni";
+            this.btnYeni.Click += new System.EventHandler(this.btnYeni_Click);
+            // 
+            // btnKaydetYeni
+            // 
+            this.btnKaydetYeni.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Success;
+            this.btnKaydetYeni.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnKaydetYeni.Appearance.Font")));
+            this.btnKaydetYeni.Appearance.Options.UseBackColor = true;
+            this.btnKaydetYeni.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.btnKaydetYeni, "btnKaydetYeni");
+            this.btnKaydetYeni.Name = "btnKaydetYeni";
+            this.btnKaydetYeni.Click += new System.EventHandler(this.btnKaydetYeni_Click);
+            // 
+            // frm_Stok
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.ultraTabControl1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ultraPanel1);
-            this.Name = "Frm_Stok";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "frm_Stok";
             this.Load += new System.EventHandler(this.Frm_Stok_Load);
             this.ultraPanel1.ClientArea.ResumeLayout(false);
             this.ultraPanel1.ClientArea.PerformLayout();
@@ -959,15 +1004,19 @@
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.ultraTabPageControl2.ResumeLayout(false);
-            this.ultraTabPageControl3.ResumeLayout(false);
-            this.ultraTabPageControl3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ultraTabControl1)).EndInit();
-            this.ultraTabControl1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.pnlRenkBedenOlan.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl7)).EndInit();
             this.panelControl7.ResumeLayout(false);
+            this.ultraTabPageControl3.ResumeLayout(false);
+            this.ultraTabPageControl3.PerformLayout();
+            this.ultraTabPageControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridTema)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ViewTema)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmblookup)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraTabControl1)).EndInit();
+            this.ultraTabControl1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1005,27 +1054,20 @@
         private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl2;
         private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl3;
         private System.Windows.Forms.Panel panel1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton16;
-        private DevExpress.XtraEditors.SimpleButton simpleButton15;
-        private DevExpress.XtraEditors.SimpleButton simpleButton14;
-        private DevExpress.XtraEditors.SimpleButton simpleButton13;
-        private DevExpress.XtraEditors.SimpleButton simpleButton12;
-        private DevExpress.XtraEditors.SimpleButton simpleButton11;
-        private DevExpress.XtraEditors.SimpleButton simpleButton10;
-        private DevExpress.XtraEditors.SimpleButton simpleButton9;
-        private DevExpress.XtraEditors.SimpleButton simpleButton8;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton btnCik;
+        private DevExpress.XtraEditors.SimpleButton btnSil;
+        private DevExpress.XtraEditors.SimpleButton btnUzunNot;
+        private DevExpress.XtraEditors.SimpleButton btnfiyatGor;
+        private DevExpress.XtraEditors.SimpleButton btnFiyatGir;
+        private DevExpress.XtraEditors.SimpleButton btnBarkod;
+        private DevExpress.XtraEditors.SimpleButton btnAciklama;
+        private DevExpress.XtraEditors.SimpleButton btnYeni;
+        private DevExpress.XtraEditors.SimpleButton btnKaydetYeni;
         private Infragistics.Win.Misc.UltraPanel ultraPanel1;
         private DevExpress.XtraEditors.SimpleButton simpleButton18;
         private Infragistics.Win.Misc.UltraButton ultraButton2;
         private System.Windows.Forms.Label label1;
-        private Infragistics.Win.Misc.UltraButton ultraButton1;
+        private Infragistics.Win.Misc.UltraButton btnStandartAc;
         private System.Windows.Forms.TextBox txtStokKodu;
         private System.Windows.Forms.Button btnStokBul;
         private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl4;
@@ -1082,6 +1124,13 @@
         private System.Windows.Forms.TextBox txtsnf3;
         private System.Windows.Forms.TextBox txtsnf2;
         private System.Windows.Forms.Label lblSinif1;
+        private DevExpress.XtraGrid.GridControl gridTema;
+        private DevExpress.XtraGrid.Views.Grid.GridView ViewTema;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
+        private DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit cmblookup;
     }
 }
 

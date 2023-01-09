@@ -68,21 +68,22 @@
             // 
             // ultraPanel1
             // 
+            resources.ApplyResources(this.ultraPanel1, "ultraPanel1");
             this.ultraPanel1.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
             // 
             // ultraPanel1.ClientArea
             // 
+            resources.ApplyResources(this.ultraPanel1.ClientArea, "ultraPanel1.ClientArea");
             this.ultraPanel1.ClientArea.Controls.Add(this.ListRenkler);
             this.ultraPanel1.ClientArea.Controls.Add(this.txtRenkAra);
-            resources.ApplyResources(this.ultraPanel1, "ultraPanel1");
             this.ultraPanel1.Name = "ultraPanel1";
             // 
             // ListRenkler
             // 
+            resources.ApplyResources(this.ListRenkler, "ListRenkler");
             this.ListRenkler.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
-            resources.ApplyResources(this.ListRenkler, "ListRenkler");
             this.ListRenkler.HideSelection = false;
             this.ListRenkler.Name = "ListRenkler";
             this.ListRenkler.UseCompatibleStateImageBehavior = false;
@@ -99,30 +100,31 @@
             // 
             // txtRenkAra
             // 
+            resources.ApplyResources(this.txtRenkAra, "txtRenkAra");
             this.txtRenkAra.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtRenkAra.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtRenkAra.BackColor = System.Drawing.SystemColors.Info;
-            resources.ApplyResources(this.txtRenkAra, "txtRenkAra");
             this.txtRenkAra.Name = "txtRenkAra";
             this.txtRenkAra.TextChanged += new System.EventHandler(this.txtRenkAra_TextChanged);
             // 
             // ultraPanel2
             // 
+            resources.ApplyResources(this.ultraPanel2, "ultraPanel2");
             // 
             // ultraPanel2.ClientArea
             // 
+            resources.ApplyResources(this.ultraPanel2.ClientArea, "ultraPanel2.ClientArea");
             this.ultraPanel2.ClientArea.Controls.Add(this.panel1);
             this.ultraPanel2.ClientArea.Controls.Add(this.ultraPanel3);
-            resources.ApplyResources(this.ultraPanel2, "ultraPanel2");
             this.ultraPanel2.Name = "ultraPanel2";
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.simpleButton1);
             this.panel1.Controls.Add(this.simpleButton2);
             this.panel1.Controls.Add(this.simpleButton4);
             this.panel1.Controls.Add(this.simpleButton3);
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // simpleButton1
@@ -151,21 +153,22 @@
             // 
             // ultraPanel3
             // 
+            resources.ApplyResources(this.ultraPanel3, "ultraPanel3");
             this.ultraPanel3.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
             // 
             // ultraPanel3.ClientArea
             // 
+            resources.ApplyResources(this.ultraPanel3.ClientArea, "ultraPanel3.ClientArea");
             this.ultraPanel3.ClientArea.Controls.Add(this.ListSecili);
             this.ultraPanel3.ClientArea.Controls.Add(this.textBox1);
-            resources.ApplyResources(this.ultraPanel3, "ultraPanel3");
             this.ultraPanel3.Name = "ultraPanel3";
             // 
             // ListSecili
             // 
+            resources.ApplyResources(this.ListSecili, "ListSecili");
             this.ListSecili.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader3,
             this.columnHeader4});
-            resources.ApplyResources(this.ListSecili, "ListSecili");
             this.ListSecili.HideSelection = false;
             this.ListSecili.Name = "ListSecili";
             this.ListSecili.UseCompatibleStateImageBehavior = false;
@@ -181,63 +184,65 @@
             // 
             // textBox1
             // 
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.textBox1.BackColor = System.Drawing.SystemColors.Info;
-            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
             this.textBox1.TextChanged += new System.EventHandler(this.txtRenkAra_TextChanged);
             // 
             // ultraPanel4
             // 
+            resources.ApplyResources(this.ultraPanel4, "ultraPanel4");
             // 
             // ultraPanel4.ClientArea
             // 
+            resources.ApplyResources(this.ultraPanel4.ClientArea, "ultraPanel4.ClientArea");
             this.ultraPanel4.ClientArea.Controls.Add(this.simpleButton5);
             this.ultraPanel4.ClientArea.Controls.Add(this.btnOk);
-            resources.ApplyResources(this.ultraPanel4, "ultraPanel4");
             this.ultraPanel4.Name = "ultraPanel4";
             // 
             // simpleButton5
             // 
+            resources.ApplyResources(this.simpleButton5, "simpleButton5");
             this.simpleButton5.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton5.Appearance.Font")));
             this.simpleButton5.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.simpleButton5, "simpleButton5");
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Click += new System.EventHandler(this.simpleButton5_Click);
             // 
             // btnOk
             // 
+            resources.ApplyResources(this.btnOk, "btnOk");
             this.btnOk.Appearance.Options.UseTextOptions = true;
             this.btnOk.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.btnOk.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.btnOk.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
-            resources.ApplyResources(this.btnOk, "btnOk");
             this.btnOk.Name = "btnOk";
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // ultraPanel5
             // 
+            resources.ApplyResources(this.ultraPanel5, "ultraPanel5");
             // 
             // ultraPanel5.ClientArea
             // 
+            resources.ApplyResources(this.ultraPanel5.ClientArea, "ultraPanel5.ClientArea");
             this.ultraPanel5.ClientArea.Controls.Add(this.groupBox1);
-            resources.ApplyResources(this.ultraPanel5, "ultraPanel5");
             this.ultraPanel5.Name = "ultraPanel5";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dataGridView1);
             resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // dataGridView1
             // 
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
             // 
             // Frm_Renk

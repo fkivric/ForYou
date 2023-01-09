@@ -45,18 +45,15 @@ namespace ForYou
         private void frmRenk_Load(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
+            DataTable dt2 = new DataTable();
             this.Width = 486;
-            if (renk != "")
-            {
-                Dictionary<string, string> value = new Dictionary<string, string>();
-                value.Add("@Renk", renk);
-                dt = conn.DfQuery("", value);
-            }
-            else
-            {
-                dt = conn.DfQuerySpOnly("FK_Select_Renk");
-            }
-            Ekle(dt);
+            dt = conn.DfQuerySpOnly("FK_Select_Renk");
+
+            Dictionary<string, string> value = new Dictionary<string, string>();
+            value.Add("@Renk", renk);
+            dt2 = conn.DfQuery("FK_Select_Renk_var", value);
+
+            Ekle(dt,dt2);
             setUpEventHandlers();
             if (bedenTipi == null)
             {
@@ -77,7 +74,7 @@ namespace ForYou
 
             }
         }
-        private void Ekle(DataTable Renk)
+        private void Ekle(DataTable Renk, DataTable Olan)
         {
             var roots = new List<Nebular>();
             for (int i = 0; i < Renk.Rows.Count; i++)
@@ -92,7 +89,25 @@ namespace ForYou
             foreach (Nebular s in roots)
             {
                 ListRenkler.Items.Add(new ListViewItem(new[] { s.sRenk, s.sRenkAdi }));
+                for (int i = 0; i < Olan.Rows.Count; i++)
+                {
+                    var ss = Olan.Rows[0][0].ToString();
+                    if (Olan.Rows[i][0].ToString() == s.sRenk)
+                    {
+                        ListSecili.Items.Add(new ListViewItem(new[] { s.sRenk, s.sRenkAdi }));
+
+                        for (int n = ListRenkler.Items.Count - 1; n >= 0; --n)
+                        {
+                            if (ListRenkler.Items[n].ToString().Contains(s.sRenk))
+                            {
+                                ListRenkler.Items.RemoveAt(n);
+                            }
+                        }
+                        //ListRenkler.Items.RemoveAt(ListRenkler.SelectedItems[0].Index);
+                    }
+                }
             }
+
             //nebulae = new[]
             //{
             //    new Nebular {sRenk="",sRenkAdi=""},
@@ -304,7 +319,7 @@ namespace ForYou
                     btnOk.Enabled = false;
 
                     Dictionary<string, string> Values = new Dictionary<string, string>();
-                    //Values.Add("@smodel", Frm_Stok.sModel);
+                    Values.Add("@smodel", frm_Stok.sModel);
                     if (kavalaTipi != null)
                     {
                         Values.Add("@sKavalaTipi", kavalaTipi);
@@ -322,11 +337,11 @@ namespace ForYou
                         Values.Add("@sBedenTipi", "");
                     }
                     Values.Add("@sRenkKodu", secilirenkler);
-                    var tablo = conn.DfQuery("FK_Select_Renk_Beden_Kavala_Sec", Values);
+                    var tablo = conn.DfQuery("FK_Select_Stok_Renk_Beden_Kavala_Sec", Values);
                     dataGridView1.DataSource = tablo;
                     dataGridView1.AutoResizeColumns();
                 }
-                Frm_Stok.sRenkKodu = secilirenkler;
+                frm_Stok.sRenkKodu = secilirenkler;
             }
         }
 
@@ -336,7 +351,7 @@ namespace ForYou
             {
                 for (int r = 0; r < dataGridView1.Rows.Count; r++)
                 {
-                    var dd = Frm_Stok.sinifsira1.IndexOf("-");
+                    var dd = frm_Stok.sinifsira1.IndexOf("-");
                     string bedensira;
                     int stoksayi = 0;
                     var srenk = dataGridView1.Rows[r].Cells[0].Value.ToString();
@@ -345,9 +360,9 @@ namespace ForYou
                     {
                         var bedenvar = dataGridView1.Rows[r].Cells[c].Value.ToString();
                         Dictionary<string, string> Renkler = new Dictionary<string, string>();
-                        Renkler.Add("@sModel", Frm_Stok.sModel.ToString());
-                        Renkler.Add("@BedenTipi", Frm_Stok.BedenTipi);
-                        Renkler.Add("@KavalaTipi", Frm_Stok.Kavala);
+                        Renkler.Add("@sModel", frm_Stok.sModel.ToString());
+                        Renkler.Add("@BedenTipi", frm_Stok.BedenTipi);
+                        Renkler.Add("@KavalaTipi", frm_Stok.Kavala);
                         Renkler.Add("@sRenkKodu", srenk);
                         if (bedenvar.ToString() == "True")
                         {
@@ -360,53 +375,53 @@ namespace ForYou
                             Renkler.Add("@sBeden", "");
                         }
                         Renkler.Add("@Kavala", skavala);
-                        Renkler.Add("@sinif1", Frm_Stok.sinifsira1.ToString().Substring(Frm_Stok.sinifsira1.IndexOf("-")+1).Replace("00", ""));
-                        Renkler.Add("@sinif2", Frm_Stok.sinifsira2.ToString().Substring(Frm_Stok.sinifsira2.IndexOf("-")+1).Replace("00", ""));
-                        Renkler.Add("@sinif3", Frm_Stok.sinifsira3.ToString().Substring(Frm_Stok.sinifsira3.IndexOf("-")+1).Replace("00", ""));
-                        if (Frm_Stok.sinifsira4.ToString() != "")
+                        Renkler.Add("@sinif1", frm_Stok.sinifsira1.ToString().Substring(frm_Stok.sinifsira1.IndexOf("-")+1).Replace("00", ""));
+                        Renkler.Add("@sinif2", frm_Stok.sinifsira2.ToString().Substring(frm_Stok.sinifsira2.IndexOf("-")+1).Replace("00", ""));
+                        Renkler.Add("@sinif3", frm_Stok.sinifsira3.ToString().Substring(frm_Stok.sinifsira3.IndexOf("-")+1).Replace("00", ""));
+                        if (frm_Stok.sinifsira4.ToString() != "")
                         {
-                            Renkler.Add("@sinif4", Frm_Stok.sinifsira4.ToString().Substring(Frm_Stok.sinifsira4.IndexOf("-")+1).Replace("00", ""));
+                            Renkler.Add("@sinif4", frm_Stok.sinifsira4.ToString().Substring(frm_Stok.sinifsira4.IndexOf("-")+1).Replace("00", ""));
                         }
                         else
                         {
                             Renkler.Add("@sinif4", "");
                         }
-                        if (Frm_Stok.sinifsira5.ToString() != "")
+                        if (frm_Stok.sinifsira5.ToString() != "")
                         {
-                            Renkler.Add("@sinif5", Frm_Stok.sinifsira5.ToString().Substring(Frm_Stok.sinifsira5.IndexOf("-")+1).Replace("00", ""));
+                            Renkler.Add("@sinif5", frm_Stok.sinifsira5.ToString().Substring(frm_Stok.sinifsira5.IndexOf("-")+1).Replace("00", ""));
                         }
                         else
                         {
                             Renkler.Add("@sinif5", "");
                         }
-                        if (Frm_Stok.sinifsira6.ToString() != "")
+                        if (frm_Stok.sinifsira6.ToString() != "")
                         {
-                            Renkler.Add("@sinif6", Frm_Stok.sinifsira6.ToString().Substring(Frm_Stok.sinifsira6.IndexOf("-")+1).Replace("00", ""));
+                            Renkler.Add("@sinif6", frm_Stok.sinifsira6.ToString().Substring(frm_Stok.sinifsira6.IndexOf("-")+1).Replace("00", ""));
                         }
                         else
                         {
                             Renkler.Add("@sinif6", "");
                         }
-                        if (Frm_Stok.sinifsira7.ToString() != "")
+                        if (frm_Stok.sinifsira7.ToString() != "")
                         {
-                            Renkler.Add("@sinif7", Frm_Stok.sinifsira7.ToString().Substring(Frm_Stok.sinifsira7.IndexOf("-") + 1).Replace("00", ""));
+                            Renkler.Add("@sinif7", frm_Stok.sinifsira7.ToString().Substring(frm_Stok.sinifsira7.IndexOf("-") + 1).Replace("00", ""));
                         }
                         else
                         {
                             Renkler.Add("@sinif7", "");
                         }
-                        if (Frm_Stok.sinifsira8.ToString() != "")
+                        if (frm_Stok.sinifsira8.ToString() != "")
                         {
-                            Renkler.Add("@sinif8", Frm_Stok.sinifsira8.ToString().Substring(Frm_Stok.sinifsira8.IndexOf("-") + 1).Replace("00", ""));
+                            Renkler.Add("@sinif8", frm_Stok.sinifsira8.ToString().Substring(frm_Stok.sinifsira8.IndexOf("-") + 1).Replace("00", ""));
 
                         }
                         else
                         {
                             Renkler.Add("@sinif8", "");
                         }
-                        if (Frm_Stok.sinifsira9.ToString() != "")
+                        if (frm_Stok.sinifsira9.ToString() != "")
                         {
-                            Renkler.Add("@sinif9", Frm_Stok.sinifsira3.ToString().Substring(Frm_Stok.sinifsira9.IndexOf("-") + 1).Replace("00", ""));
+                            Renkler.Add("@sinif9", frm_Stok.sinifsira3.ToString().Substring(frm_Stok.sinifsira9.IndexOf("-") + 1).Replace("00", ""));
                         }
                         else
                         {
@@ -414,31 +429,31 @@ namespace ForYou
                             Renkler.Add("@sinif8", "");
 
                         }
-                        if (Frm_Stok.sinifsira10.ToString() != "")
+                        if (frm_Stok.sinifsira10.ToString() != "")
                         {
-                            Renkler.Add("@sinif10", Frm_Stok.sinifsira10.ToString().Substring(Frm_Stok.sinifsira10.IndexOf("-") + 1).Replace("00", ""));
+                            Renkler.Add("@sinif10", frm_Stok.sinifsira10.ToString().Substring(frm_Stok.sinifsira10.IndexOf("-") + 1).Replace("00", ""));
                         }
                         else
                         {
                             Renkler.Add("@sinif10", "");
                         }
-                        if (Frm_Stok.sinifsira11.ToString() != "")
+                        if (frm_Stok.sinifsira11.ToString() != "")
                         {
-                            Renkler.Add("@sinif11", Frm_Stok.sinifsira11.ToString().Substring(Frm_Stok.sinifsira11.IndexOf("-") + 1).Replace("00", ""));
+                            Renkler.Add("@sinif11", frm_Stok.sinifsira11.ToString().Substring(frm_Stok.sinifsira11.IndexOf("-") + 1).Replace("00", ""));
                         }
                         else
                         {
                             Renkler.Add("@sinif11", "");
                         }
-                        if (Frm_Stok.sinifsira12.ToString() != "")
+                        if (frm_Stok.sinifsira12.ToString() != "")
                         {
-                            Renkler.Add("@sinif12", Frm_Stok.sinifsira12.ToString().Substring(Frm_Stok.sinifsira12.IndexOf("-") + 1).Replace("00", ""));
+                            Renkler.Add("@sinif12", frm_Stok.sinifsira12.ToString().Substring(frm_Stok.sinifsira12.IndexOf("-") + 1).Replace("00", ""));
                         }
                         else
                         {
                             Renkler.Add("@sinif12", "");
                         }
-                        conn.DfInsert("Entegref_Add_Item_Property", Renkler);
+                        conn.DfInsert("FK_insert_Stok", Renkler);
                     }
                 }
             }

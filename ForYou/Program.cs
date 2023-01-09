@@ -16,7 +16,7 @@ namespace ForYou
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FRm_Login());
+            Application.Run(new frm_Login());
         }
     }
 }

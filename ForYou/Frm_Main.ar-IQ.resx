@@ -118,11 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="stokAçToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="stokAçToolStripMenuItem1.Text" xml:space="preserve">
+    <value>فتح الأسهم</value>
+  </data>
   <data name="stokAçToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 20</value>
   </data>
   <data name="stokAçToolStripMenuItem.Text" xml:space="preserve">
     <value>معاملات المخزون</value>
+  </data>
+  <data name="renkAçToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="renkAçToolStripMenuItem.Text" xml:space="preserve">
+    <value>خلق اللون</value>
+  </data>
+  <data name="bedenAçToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="bedenAçToolStripMenuItem.Text" xml:space="preserve">
+    <value>مقاس الجسم</value>
+  </data>
+  <data name="stokSınıfıAçToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="stokSınıfıAçToolStripMenuItem.Text" xml:space="preserve">
+    <value>قم بإنشاء فئة جرد</value>
   </data>
   <data name="parametreTanımlamaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 20</value>
@@ -139,17 +163,5 @@
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
-  </data>
-  <data name="stokAçToolStripMenuItem1.Text" xml:space="preserve">
-    <value>فتح الأسهم</value>
-  </data>
-  <data name="renkAçToolStripMenuItem.Text" xml:space="preserve">
-    <value>خلق اللون</value>
-  </data>
-  <data name="bedenAçToolStripMenuItem.Text" xml:space="preserve">
-    <value>مقاس الجسم</value>
-  </data>
-  <data name="stokSınıfıAçToolStripMenuItem.Text" xml:space="preserve">
-    <value>قم بإنشاء فئة جرد</value>
   </data>
 </root>

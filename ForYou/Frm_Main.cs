@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,6 +16,14 @@ namespace ForYou
         public Frm_Main()
         {
             InitializeComponent();
+            if (Thread.CurrentThread.CurrentUICulture.IetfLanguageTag == "tr_TR")
+            {
+                this.Text = "Foryou" + " --  TÜRKÇE";
+            }
+            else
+            {
+                this.Text = "Foryou" + " --  اللغة العربية";
+            }
         }
 
         private void stokAçToolStripMenuItem_Click(object sender, EventArgs e)
@@ -24,13 +33,28 @@ namespace ForYou
 
         private void stokAçToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Frm_Stok stok = new Frm_Stok();
+            frm_Stok stok = new frm_Stok();
             stok.MdiParent = this;
             stok.Show();
         }
 
         private void dilToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            switch (Thread.CurrentThread.CurrentUICulture.IetfLanguageTag)
+            {
+                case "tr-TR": Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ar-AR"); break;
+                case "ar-AR": Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("tr-TR"); break;
+            }
+            this.Controls.Clear();
+            InitializeComponent();
+            if (Thread.CurrentThread.CurrentUICulture.IetfLanguageTag == "tr_TR")
+            {
+                this.Text = "Foryou" + " --  TÜRKÇE"; 
+            }
+            else
+            {
+                this.Text = "Foryou" + " --  اللغة العربية";
+            }
 
         }
 
@@ -43,14 +67,14 @@ namespace ForYou
 
         private void bedenAçToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_BedenTipi stok = new Frm_BedenTipi();
+            frm_BedenTipi stok = new frm_BedenTipi();
             stok.MdiParent = this;
             stok.Show();
         }
 
         private void stokSınıfıAçToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_StokSinifi stok = new Frm_StokSinifi();
+            frm_StokSinifi stok = new frm_StokSinifi();
             stok.MdiParent = this;
             stok.Show();
         }

@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="simpleButton18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>531, 3</value>
+    <value>531, 8</value>
   </data>
   <data name="simpleButton18.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 35</value>
@@ -135,7 +135,7 @@
     <value>simpleButton18</value>
   </data>
   <data name="&gt;&gt;simpleButton18.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;simpleButton18.Parent" xml:space="preserve">
     <value>ultraPanel1.ClientArea</value>
@@ -144,7 +144,7 @@
     <value>0</value>
   </data>
   <data name="ultraButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>363, 3</value>
+    <value>363, 8</value>
   </data>
   <data name="ultraButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 35</value>
@@ -171,7 +171,7 @@
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 14</value>
+    <value>2, 19</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 13</value>
@@ -195,35 +195,35 @@
     <value>2</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ultraButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="btnStandartAc.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="ultraButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>882, 0</value>
+  <data name="btnStandartAc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>904, 0</value>
   </data>
-  <data name="ultraButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 50</value>
+  <data name="btnStandartAc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 50</value>
   </data>
-  <data name="ultraButton1.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnStandartAc.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="ultraButton1.Text" xml:space="preserve">
+  <data name="btnStandartAc.Text" xml:space="preserve">
     <value>Standart Kart Aç</value>
   </data>
-  <data name="&gt;&gt;ultraButton1.Name" xml:space="preserve">
-    <value>ultraButton1</value>
+  <data name="&gt;&gt;btnStandartAc.Name" xml:space="preserve">
+    <value>btnStandartAc</value>
   </data>
-  <data name="&gt;&gt;ultraButton1.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnStandartAc.Type" xml:space="preserve">
     <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
   </data>
-  <data name="&gt;&gt;ultraButton1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnStandartAc.Parent" xml:space="preserve">
     <value>ultraPanel1.ClientArea</value>
   </data>
-  <data name="&gt;&gt;ultraButton1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnStandartAc.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="txtStokKodu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 9</value>
+    <value>63, 15</value>
   </data>
   <data name="txtStokKodu.MaxLength" type="System.Int32, mscorlib">
     <value>13</value>
@@ -247,7 +247,7 @@
     <value>4</value>
   </data>
   <data name="btnStokBul.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 8</value>
+    <value>323, 13</value>
   </data>
   <data name="btnStokBul.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 24</value>
@@ -565,7 +565,7 @@
     <value>Bottom</value>
   </data>
   <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 418</value>
+    <value>0, 412</value>
   </data>
   <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
     <value>902, 60</value>
@@ -997,10 +997,10 @@
     <value>16</value>
   </data>
   <data name="ultraTabPageControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-10000, -10000</value>
+    <value>1, 22</value>
   </data>
   <data name="ultraTabPageControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>902, 478</value>
+    <value>902, 472</value>
   </data>
   <data name="&gt;&gt;ultraTabPageControl1.Name" xml:space="preserve">
     <value>ultraTabPageControl1</value>
@@ -1018,7 +1018,7 @@
     <value>Bottom</value>
   </data>
   <data name="pnlRenkBeden.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>0, -6</value>
   </data>
   <data name="pnlRenkBeden.Size" type="System.Drawing.Size, System.Drawing">
     <value>902, 425</value>
@@ -1045,7 +1045,7 @@
     <value>0, 0</value>
   </data>
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>902, 425</value>
+    <value>902, 419</value>
   </data>
   <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1081,7 +1081,7 @@
     <value>simpleButton17</value>
   </data>
   <data name="&gt;&gt;simpleButton17.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;simpleButton17.Parent" xml:space="preserve">
     <value>panelControl7</value>
@@ -1108,7 +1108,7 @@
     <value>simpleButton19</value>
   </data>
   <data name="&gt;&gt;simpleButton19.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;simpleButton19.Parent" xml:space="preserve">
     <value>panelControl7</value>
@@ -1120,7 +1120,7 @@
     <value>Bottom</value>
   </data>
   <data name="panelControl7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 425</value>
+    <value>0, 419</value>
   </data>
   <data name="panelControl7.Size" type="System.Drawing.Size, System.Drawing">
     <value>902, 53</value>
@@ -1132,7 +1132,7 @@
     <value>panelControl7</value>
   </data>
   <data name="&gt;&gt;panelControl7.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;panelControl7.Parent" xml:space="preserve">
     <value>pnlRenkBedenOlan</value>
@@ -1147,7 +1147,7 @@
     <value>0, 0</value>
   </data>
   <data name="pnlRenkBedenOlan.Size" type="System.Drawing.Size, System.Drawing">
-    <value>902, 478</value>
+    <value>902, 472</value>
   </data>
   <data name="pnlRenkBedenOlan.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1168,7 +1168,7 @@
     <value>-10000, -10000</value>
   </data>
   <data name="ultraTabPageControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>902, 478</value>
+    <value>902, 472</value>
   </data>
   <data name="&gt;&gt;ultraTabPageControl2.Name" xml:space="preserve">
     <value>ultraTabPageControl2</value>
@@ -1189,7 +1189,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 9</value>
+    <value>653, 0</value>
   </data>
   <data name="btnsnfac1.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1216,7 +1216,7 @@
     <value>Bottom, Right</value>
   </data>
   <data name="txtsnf1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 9</value>
+    <value>224, 0</value>
   </data>
   <data name="txtsnf1.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1240,7 +1240,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 415</value>
+    <value>653, 412</value>
   </data>
   <data name="btnsnfac15.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1267,7 +1267,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 386</value>
+    <value>653, 383</value>
   </data>
   <data name="btnsnfac14.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1294,7 +1294,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 357</value>
+    <value>653, 354</value>
   </data>
   <data name="btnsnfac13.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1321,7 +1321,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 328</value>
+    <value>653, 325</value>
   </data>
   <data name="btnsnfac12.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1348,7 +1348,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 299</value>
+    <value>653, 296</value>
   </data>
   <data name="btnsnfac11.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1375,7 +1375,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 270</value>
+    <value>653, 267</value>
   </data>
   <data name="btnsnfac10.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1402,7 +1402,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 241</value>
+    <value>653, 238</value>
   </data>
   <data name="btnsnfac9.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1429,7 +1429,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 212</value>
+    <value>653, 209</value>
   </data>
   <data name="btnsnfac8.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1456,7 +1456,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 183</value>
+    <value>653, 180</value>
   </data>
   <data name="btnsnfac7.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1483,7 +1483,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 154</value>
+    <value>653, 151</value>
   </data>
   <data name="btnsnfac6.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1510,7 +1510,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 125</value>
+    <value>653, 122</value>
   </data>
   <data name="btnsnfac5.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1537,7 +1537,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 96</value>
+    <value>653, 93</value>
   </data>
   <data name="btnsnfac4.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1564,7 +1564,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 67</value>
+    <value>653, 64</value>
   </data>
   <data name="btnsnfac3.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1591,7 +1591,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnsnfac2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>866, 38</value>
+    <value>653, 35</value>
   </data>
   <data name="btnsnfac2.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 20</value>
@@ -1615,7 +1615,7 @@
     <value>15</value>
   </data>
   <data name="txtsnf15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 415</value>
+    <value>224, 412</value>
   </data>
   <data name="txtsnf15.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1636,7 +1636,7 @@
     <value>16</value>
   </data>
   <data name="txtsnf14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 386</value>
+    <value>224, 383</value>
   </data>
   <data name="txtsnf14.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1657,7 +1657,7 @@
     <value>17</value>
   </data>
   <data name="txtsnf13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 357</value>
+    <value>224, 354</value>
   </data>
   <data name="txtsnf13.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1678,7 +1678,7 @@
     <value>18</value>
   </data>
   <data name="txtsnf12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 328</value>
+    <value>224, 325</value>
   </data>
   <data name="txtsnf12.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1699,7 +1699,7 @@
     <value>19</value>
   </data>
   <data name="txtsnf11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 299</value>
+    <value>224, 296</value>
   </data>
   <data name="txtsnf11.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1720,7 +1720,7 @@
     <value>20</value>
   </data>
   <data name="txtsnf10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 270</value>
+    <value>224, 267</value>
   </data>
   <data name="txtsnf10.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1741,7 +1741,7 @@
     <value>21</value>
   </data>
   <data name="txtsnf9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 241</value>
+    <value>224, 238</value>
   </data>
   <data name="txtsnf9.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1762,7 +1762,7 @@
     <value>22</value>
   </data>
   <data name="txtsnf8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 212</value>
+    <value>224, 209</value>
   </data>
   <data name="txtsnf8.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1783,7 +1783,7 @@
     <value>23</value>
   </data>
   <data name="txtsnf7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 183</value>
+    <value>224, 180</value>
   </data>
   <data name="txtsnf7.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1804,7 +1804,7 @@
     <value>24</value>
   </data>
   <data name="txtsnf6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 154</value>
+    <value>224, 151</value>
   </data>
   <data name="txtsnf6.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1825,7 +1825,7 @@
     <value>25</value>
   </data>
   <data name="txtsnf5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 125</value>
+    <value>224, 122</value>
   </data>
   <data name="txtsnf5.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1846,7 +1846,7 @@
     <value>26</value>
   </data>
   <data name="txtsnf4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 96</value>
+    <value>224, 93</value>
   </data>
   <data name="txtsnf4.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1867,7 +1867,7 @@
     <value>27</value>
   </data>
   <data name="txtsnf3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 67</value>
+    <value>224, 64</value>
   </data>
   <data name="txtsnf3.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1888,7 +1888,7 @@
     <value>28</value>
   </data>
   <data name="txtsnf2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 38</value>
+    <value>224, 35</value>
   </data>
   <data name="txtsnf2.Size" type="System.Drawing.Size, System.Drawing">
     <value>428, 20</value>
@@ -1912,7 +1912,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 419</value>
+    <value>5, 416</value>
   </data>
   <data name="lblSinif15.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -1942,7 +1942,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 390</value>
+    <value>5, 387</value>
   </data>
   <data name="lblSinif14.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -1972,7 +1972,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 361</value>
+    <value>5, 358</value>
   </data>
   <data name="lblSinif13.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2002,7 +2002,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 332</value>
+    <value>5, 329</value>
   </data>
   <data name="lblSinif12.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2032,7 +2032,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 303</value>
+    <value>5, 300</value>
   </data>
   <data name="lblSinif11.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2062,7 +2062,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 274</value>
+    <value>5, 271</value>
   </data>
   <data name="lblSinif10.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2092,7 +2092,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 245</value>
+    <value>5, 242</value>
   </data>
   <data name="lblSinif9.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2122,7 +2122,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 216</value>
+    <value>5, 213</value>
   </data>
   <data name="lblSinif8.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2152,7 +2152,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 187</value>
+    <value>5, 184</value>
   </data>
   <data name="lblSinif7.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2182,7 +2182,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 158</value>
+    <value>5, 155</value>
   </data>
   <data name="lblSinif6.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2212,7 +2212,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 129</value>
+    <value>5, 126</value>
   </data>
   <data name="lblSinif5.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2242,7 +2242,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 100</value>
+    <value>5, 97</value>
   </data>
   <data name="lblSinif4.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2272,7 +2272,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 71</value>
+    <value>5, 68</value>
   </data>
   <data name="lblSinif3.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2302,7 +2302,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 42</value>
+    <value>5, 39</value>
   </data>
   <data name="lblSinif2.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2332,7 +2332,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblSinif1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 13</value>
+    <value>5, 10</value>
   </data>
   <data name="lblSinif1.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 13</value>
@@ -2359,10 +2359,10 @@
     <value>44</value>
   </data>
   <data name="ultraTabPageControl3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 22</value>
+    <value>-10000, -10000</value>
   </data>
   <data name="ultraTabPageControl3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>902, 478</value>
+    <value>902, 472</value>
   </data>
   <data name="&gt;&gt;ultraTabPageControl3.Name" xml:space="preserve">
     <value>ultraTabPageControl3</value>
@@ -2376,11 +2376,78 @@
   <data name="&gt;&gt;ultraTabPageControl3.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="gridTema.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridTema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Model Kodu</value>
+  </data>
+  <data name="gridColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Renk Kodu</value>
+  </data>
+  <data name="gridColumn2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gridColumn3.Caption" xml:space="preserve">
+    <value>Renk Adı</value>
+  </data>
+  <data name="gridColumn3.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn3.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gridColumn4.Caption" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="cmblookup.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v19.2" name="DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="cmblookup.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v19.2">
+    <value>Combo</value>
+  </data>
+  <data name="gridColumn4.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn4.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gridTema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 472</value>
+  </data>
+  <data name="gridTema.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridTema.Name" xml:space="preserve">
+    <value>gridTema</value>
+  </data>
+  <data name="&gt;&gt;gridTema.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridTema.Parent" xml:space="preserve">
+    <value>ultraTabPageControl4</value>
+  </data>
+  <data name="&gt;&gt;gridTema.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="ultraTabPageControl4.Location" type="System.Drawing.Point, System.Drawing">
     <value>-10000, -10000</value>
   </data>
   <data name="ultraTabPageControl4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>902, 478</value>
+    <value>902, 472</value>
   </data>
   <data name="&gt;&gt;ultraTabPageControl4.Name" xml:space="preserve">
     <value>ultraTabPageControl4</value>
@@ -2398,7 +2465,7 @@
     <value>-10000, -10000</value>
   </data>
   <data name="ultraTabSharedControlsPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>902, 478</value>
+    <value>902, 472</value>
   </data>
   <data name="&gt;&gt;ultraTabSharedControlsPage1.Name" xml:space="preserve">
     <value>ultraTabSharedControlsPage1</value>
@@ -2415,11 +2482,14 @@
   <data name="ultraTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="ultraTabControl1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="ultraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 50</value>
   </data>
   <data name="ultraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>904, 501</value>
+    <value>904, 495</value>
   </data>
   <data name="ultraTabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2448,446 +2518,287 @@
   <data name="&gt;&gt;ultraTabControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="simpleButton16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="btnCik.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="btnCik.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="simpleButton16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 465</value>
+  <data name="btnCik.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 440</value>
   </data>
-  <data name="simpleButton16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
+  <data name="btnCik.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
   </data>
-  <data name="simpleButton16.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnCik.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="simpleButton16.Text" xml:space="preserve">
+  <data name="btnCik.Text" xml:space="preserve">
     <value>Çıkış</value>
   </data>
-  <data name="&gt;&gt;simpleButton16.Name" xml:space="preserve">
-    <value>simpleButton16</value>
+  <data name="&gt;&gt;btnCik.Name" xml:space="preserve">
+    <value>btnCik</value>
   </data>
-  <data name="&gt;&gt;simpleButton16.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;btnCik.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton16.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnCik.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;simpleButton16.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnCik.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="simpleButton15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="btnUzunNot.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="btnUzunNot.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="simpleButton15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 434</value>
+  <data name="btnUzunNot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 385</value>
   </data>
-  <data name="simpleButton15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
+  <data name="btnUzunNot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
   </data>
-  <data name="simpleButton15.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="simpleButton15.Text" xml:space="preserve">
-    <value>Sil</value>
-  </data>
-  <data name="&gt;&gt;simpleButton15.Name" xml:space="preserve">
-    <value>simpleButton15</value>
-  </data>
-  <data name="&gt;&gt;simpleButton15.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton15.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton15.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="simpleButton14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 403</value>
-  </data>
-  <data name="simpleButton14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton14.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="simpleButton14.Text" xml:space="preserve">
-    <value>Ekstra</value>
-  </data>
-  <data name="&gt;&gt;simpleButton14.Name" xml:space="preserve">
-    <value>simpleButton14</value>
-  </data>
-  <data name="&gt;&gt;simpleButton14.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton14.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton14.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="simpleButton13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 372</value>
-  </data>
-  <data name="simpleButton13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton13.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="simpleButton13.Text" xml:space="preserve">
-    <value>Stok Durumu</value>
-  </data>
-  <data name="&gt;&gt;simpleButton13.Name" xml:space="preserve">
-    <value>simpleButton13</value>
-  </data>
-  <data name="&gt;&gt;simpleButton13.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton13.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton13.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="simpleButton12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 341</value>
-  </data>
-  <data name="simpleButton12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton12.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="simpleButton12.Text" xml:space="preserve">
-    <value>Satışları Bul</value>
-  </data>
-  <data name="&gt;&gt;simpleButton12.Name" xml:space="preserve">
-    <value>simpleButton12</value>
-  </data>
-  <data name="&gt;&gt;simpleButton12.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton12.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton12.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="simpleButton11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 310</value>
-  </data>
-  <data name="simpleButton11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton11.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="simpleButton11.Text" xml:space="preserve">
-    <value>Alışları Bul</value>
-  </data>
-  <data name="&gt;&gt;simpleButton11.Name" xml:space="preserve">
-    <value>simpleButton11</value>
-  </data>
-  <data name="&gt;&gt;simpleButton11.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton11.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton11.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="simpleButton10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 279</value>
-  </data>
-  <data name="simpleButton10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton10.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="simpleButton10.Text" xml:space="preserve">
-    <value>Resim Gir</value>
-  </data>
-  <data name="&gt;&gt;simpleButton10.Name" xml:space="preserve">
-    <value>simpleButton10</value>
-  </data>
-  <data name="&gt;&gt;simpleButton10.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton10.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton10.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="simpleButton9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 248</value>
-  </data>
-  <data name="simpleButton9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton9.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnUzunNot.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="simpleButton9.Text" xml:space="preserve">
+  <data name="btnUzunNot.Text" xml:space="preserve">
     <value>Uzun Not Gir</value>
   </data>
-  <data name="&gt;&gt;simpleButton9.Name" xml:space="preserve">
-    <value>simpleButton9</value>
+  <data name="&gt;&gt;btnUzunNot.Name" xml:space="preserve">
+    <value>btnUzunNot</value>
   </data>
-  <data name="&gt;&gt;simpleButton9.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;btnUzunNot.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnUzunNot.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;simpleButton9.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="simpleButton8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 217</value>
-  </data>
-  <data name="simpleButton8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton8.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="simpleButton8.Text" xml:space="preserve">
-    <value>Birim Cinsi Çevir</value>
-  </data>
-  <data name="&gt;&gt;simpleButton8.Name" xml:space="preserve">
-    <value>simpleButton8</value>
-  </data>
-  <data name="&gt;&gt;simpleButton8.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton8.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton8.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="simpleButton7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 186</value>
-  </data>
-  <data name="simpleButton7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton7.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="simpleButton7.Text" xml:space="preserve">
-    <value>Fiyat Gözlem</value>
-  </data>
-  <data name="&gt;&gt;simpleButton7.Name" xml:space="preserve">
-    <value>simpleButton7</value>
-  </data>
-  <data name="&gt;&gt;simpleButton7.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton7.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton7.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="simpleButton6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 155</value>
-  </data>
-  <data name="simpleButton6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton6.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="simpleButton6.Text" xml:space="preserve">
-    <value>Fiyat Gir</value>
-  </data>
-  <data name="&gt;&gt;simpleButton6.Name" xml:space="preserve">
-    <value>simpleButton6</value>
-  </data>
-  <data name="&gt;&gt;simpleButton6.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton6.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton6.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="simpleButton5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 124</value>
-  </data>
-  <data name="simpleButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton5.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="simpleButton5.Text" xml:space="preserve">
-    <value>Barkod Gir</value>
-  </data>
-  <data name="&gt;&gt;simpleButton5.Name" xml:space="preserve">
-    <value>simpleButton5</value>
-  </data>
-  <data name="&gt;&gt;simpleButton5.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton5.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton5.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="simpleButton4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 93</value>
-  </data>
-  <data name="simpleButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton4.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="simpleButton4.Text" xml:space="preserve">
-    <value>YeniAçıklama Gir</value>
-  </data>
-  <data name="&gt;&gt;simpleButton4.Name" xml:space="preserve">
-    <value>simpleButton4</value>
-  </data>
-  <data name="&gt;&gt;simpleButton4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton4.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton4.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="simpleButton3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 62</value>
-  </data>
-  <data name="simpleButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="simpleButton3.Text" xml:space="preserve">
-    <value>Yeni</value>
-  </data>
-  <data name="&gt;&gt;simpleButton3.Name" xml:space="preserve">
-    <value>simpleButton3</value>
-  </data>
-  <data name="&gt;&gt;simpleButton3.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton3.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton3.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="simpleButton2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 31</value>
-  </data>
-  <data name="simpleButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="simpleButton2.Text" xml:space="preserve">
-    <value>Kaydet</value>
-  </data>
-  <data name="&gt;&gt;simpleButton2.Name" xml:space="preserve">
-    <value>simpleButton2</value>
-  </data>
-  <data name="&gt;&gt;simpleButton2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;simpleButton2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;simpleButton2.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="simpleButton1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 31</value>
-  </data>
-  <data name="simpleButton1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;btnUzunNot.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="simpleButton1.Text" xml:space="preserve">
-    <value>Kaydet &amp; Yeni</value>
+  <data name="btnfiyatGor.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
-    <value>simpleButton1</value>
+  <data name="btnfiyatGor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="btnfiyatGor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 330</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+  <data name="btnfiyatGor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="btnfiyatGor.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnfiyatGor.Text" xml:space="preserve">
+    <value>Fiyat Gözlem</value>
+  </data>
+  <data name="&gt;&gt;btnfiyatGor.Name" xml:space="preserve">
+    <value>btnfiyatGor</value>
+  </data>
+  <data name="&gt;&gt;btnfiyatGor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnfiyatGor.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnfiyatGor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnFiyatGir.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="btnFiyatGir.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnFiyatGir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 275</value>
+  </data>
+  <data name="btnFiyatGir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="btnFiyatGir.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnFiyatGir.Text" xml:space="preserve">
+    <value>Fiyat Gir</value>
+  </data>
+  <data name="&gt;&gt;btnFiyatGir.Name" xml:space="preserve">
+    <value>btnFiyatGir</value>
+  </data>
+  <data name="&gt;&gt;btnFiyatGir.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnFiyatGir.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnFiyatGir.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnBarkod.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="btnBarkod.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnBarkod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 220</value>
+  </data>
+  <data name="btnBarkod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="btnBarkod.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnBarkod.Text" xml:space="preserve">
+    <value>Barkod Gir</value>
+  </data>
+  <data name="&gt;&gt;btnBarkod.Name" xml:space="preserve">
+    <value>btnBarkod</value>
+  </data>
+  <data name="&gt;&gt;btnBarkod.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnBarkod.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnBarkod.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnAciklama.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="btnAciklama.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnAciklama.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 165</value>
+  </data>
+  <data name="btnAciklama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="btnAciklama.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnAciklama.Text" xml:space="preserve">
+    <value>Yeni Açıklama Gir</value>
+  </data>
+  <data name="&gt;&gt;btnAciklama.Name" xml:space="preserve">
+    <value>btnAciklama</value>
+  </data>
+  <data name="&gt;&gt;btnAciklama.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnAciklama.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnAciklama.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSil.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="btnSil.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 110</value>
+  </data>
+  <data name="btnSil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="btnSil.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
+  </data>
+  <data name="btnSil.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="&gt;&gt;btnSil.Name" xml:space="preserve">
+    <value>btnSil</value>
+  </data>
+  <data name="&gt;&gt;btnSil.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSil.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnSil.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnYeni.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="btnYeni.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnYeni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="btnYeni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="btnYeni.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnYeni.Text" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="&gt;&gt;btnYeni.Name" xml:space="preserve">
+    <value>btnYeni</value>
+  </data>
+  <data name="&gt;&gt;btnYeni.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnYeni.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnYeni.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnKaydetYeni.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt</value>
+  </data>
+  <data name="btnKaydetYeni.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnKaydetYeni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnKaydetYeni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="btnKaydetYeni.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnKaydetYeni.Text" xml:space="preserve">
+    <value>Kaydet / Yeni</value>
+  </data>
+  <data name="&gt;&gt;btnKaydetYeni.Name" xml:space="preserve">
+    <value>btnKaydetYeni</value>
+  </data>
+  <data name="&gt;&gt;btnKaydetYeni.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnKaydetYeni.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnKaydetYeni.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
+  </data>
+  <data name="panel1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>904, 50</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 501</value>
+    <value>131, 495</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -2904,6 +2815,9 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2911,13 +2825,49 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1035, 551</value>
+    <value>1035, 545</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Stok Aç</value>
   </data>
+  <data name="&gt;&gt;ViewTema.Name" xml:space="preserve">
+    <value>ViewTema</value>
+  </data>
+  <data name="&gt;&gt;ViewTema.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn1.Name" xml:space="preserve">
+    <value>gridColumn1</value>
+  </data>
+  <data name="&gt;&gt;gridColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn2.Name" xml:space="preserve">
+    <value>gridColumn2</value>
+  </data>
+  <data name="&gt;&gt;gridColumn2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn3.Name" xml:space="preserve">
+    <value>gridColumn3</value>
+  </data>
+  <data name="&gt;&gt;gridColumn3.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridColumn4.Name" xml:space="preserve">
+    <value>gridColumn4</value>
+  </data>
+  <data name="&gt;&gt;gridColumn4.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cmblookup.Name" xml:space="preserve">
+    <value>cmblookup</value>
+  </data>
+  <data name="&gt;&gt;cmblookup.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Frm_Stok</value>
+    <value>frm_Stok</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

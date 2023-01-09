@@ -12,6 +12,30 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://fk.netbilbilgisayar.com.tr/</InstallUrl>
+    <UpdateUrl>http://fk.netbilbilgisayar.com.tr/</UpdateUrl>
+    <ProductName>Foryou Tools to Winner</ProductName>
+    <PublisherName>Netbil</PublisherName>
+    <SuiteName>Netbil Tools</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>index.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,18 +56,34 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>OneDrive.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>766B2EA9EFDA4A9F6A4870AA6A8DD48C02AF844E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ForYou_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\..\..\..\Desktop\örnek c#\SignUpDemo\SignUpDemo\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Infragistics4.Shared.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
     <Reference Include="Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
@@ -83,11 +123,41 @@
     <Reference Include="UIAutomationTypes" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBedenTipiAktif.cs">
+    <Compile Include="frm_Barkod.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBedenTipiAktif.Designer.cs">
-      <DependentUpon>frmBedenTipiAktif.cs</DependentUpon>
+    <Compile Include="frm_Barkod.Designer.cs">
+      <DependentUpon>frm_Barkod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BedenTipiAktif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BedenTipiAktif.Designer.cs">
+      <DependentUpon>frm_BedenTipiAktif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_FirmaBul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_FirmaBul.Designer.cs">
+      <DependentUpon>frm_FirmaBul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_FiyatGor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_FiyatGor.Designer.cs">
+      <DependentUpon>frm_FiyatGor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RenkSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RenkSec.Designer.cs">
+      <DependentUpon>frm_RenkSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SinifKodu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SinifKodu.Designer.cs">
+      <DependentUpon>frm_SinifKodu.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Renk.cs">
       <SubType>Form</SubType>
@@ -95,17 +165,17 @@
     <Compile Include="Frm_Renk.Designer.cs">
       <DependentUpon>Frm_Renk.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_BedenTipi.cs">
+    <Compile Include="frm_BedenTipi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_BedenTipi.Designer.cs">
-      <DependentUpon>Frm_BedenTipi.cs</DependentUpon>
+    <Compile Include="frm_BedenTipi.Designer.cs">
+      <DependentUpon>frm_BedenTipi.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRm_Login.cs">
+    <Compile Include="frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRm_Login.Designer.cs">
-      <DependentUpon>FRm_Login.cs</DependentUpon>
+    <Compile Include="frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Main.cs">
       <SubType>Form</SubType>
@@ -119,39 +189,108 @@
     <Compile Include="Frm_RenkTipi.Designer.cs">
       <DependentUpon>Frm_RenkTipi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Stok.cs">
+    <Compile Include="frm_StandartKartAc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Stok.Designer.cs">
-      <DependentUpon>Frm_Stok.cs</DependentUpon>
+    <Compile Include="frm_StandartKartAc.Designer.cs">
+      <DependentUpon>frm_StandartKartAc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_StokSinifi.cs">
+    <Compile Include="frm_Stok.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_StokSinifi.Designer.cs">
-      <DependentUpon>Frm_StokSinifi.cs</DependentUpon>
+    <Compile Include="frm_Stok.Designer.cs">
+      <DependentUpon>frm_Stok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_StokAciklama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_StokAciklama.Designer.cs">
+      <DependentUpon>frm_StokAciklama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_StokSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_StokSec.Designer.cs">
+      <DependentUpon>frm_StokSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_StokSinifi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_StokSinifi.Designer.cs">
+      <DependentUpon>frm_StokSinifi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UzunNot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UzunNot.Designer.cs">
+      <DependentUpon>frm_UzunNot.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="renkbeden.cs" />
     <Compile Include="SqlConnectionObject.cs" />
-    <EmbeddedResource Include="frmBedenTipiAktif.resx">
-      <DependentUpon>frmBedenTipiAktif.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Barkod.ar.resx">
+      <DependentUpon>frm_Barkod.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_BedenTipi.ar-IQ.resx">
-      <DependentUpon>Frm_BedenTipi.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Barkod.resx">
+      <DependentUpon>frm_Barkod.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_BedenTipi.resx">
-      <DependentUpon>Frm_BedenTipi.cs</DependentUpon>
+    <EmbeddedResource Include="frm_BedenTipiAktif.ar.resx">
+      <DependentUpon>frm_BedenTipiAktif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BedenTipiAktif.resx">
+      <DependentUpon>frm_BedenTipiAktif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FirmaBul.ar.resx">
+      <DependentUpon>frm_FirmaBul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FirmaBul.resx">
+      <DependentUpon>frm_FirmaBul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FiyatGor.ar.resx">
+      <DependentUpon>frm_FiyatGor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FiyatGor.resx">
+      <DependentUpon>frm_FiyatGor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RenkSec.ar.resx">
+      <DependentUpon>frm_RenkSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RenkSec.resx">
+      <DependentUpon>frm_RenkSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SinifKodu.ar.resx">
+      <DependentUpon>frm_SinifKodu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SinifKodu.resx">
+      <DependentUpon>frm_SinifKodu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BedenTipi.ar-IQ.resx">
+      <DependentUpon>frm_BedenTipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BedenTipi.ar.resx">
+      <DependentUpon>frm_BedenTipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BedenTipi.resx">
+      <DependentUpon>frm_BedenTipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Login.ar.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.ar.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Renk.ar.resx">
+      <DependentUpon>Frm_Renk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Renk.resx">
       <DependentUpon>Frm_Renk.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRm_Login.ar-IQ.resx">
-      <DependentUpon>FRm_Login.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Login.ar-IQ.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRm_Login.resx">
-      <DependentUpon>FRm_Login.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Main.ar-IQ.resx">
       <DependentUpon>Frm_Main.cs</DependentUpon>
@@ -159,11 +298,53 @@
     <EmbeddedResource Include="Frm_Main.resx">
       <DependentUpon>Frm_Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Stok.ar-IQ.resx">
-      <DependentUpon>Frm_Stok.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_RenkTipi.ar.resx">
+      <DependentUpon>Frm_RenkTipi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Stok.resx">
-      <DependentUpon>Frm_Stok.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_RenkTipi.resx">
+      <DependentUpon>Frm_RenkTipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StandartKartAc.ar-IQ.resx">
+      <DependentUpon>frm_StandartKartAc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StandartKartAc.ar.resx">
+      <DependentUpon>frm_StandartKartAc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StandartKartAc.resx">
+      <DependentUpon>frm_StandartKartAc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Stok.ar-IQ.resx">
+      <DependentUpon>frm_Stok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Stok.ar.resx">
+      <DependentUpon>frm_Stok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Stok.resx">
+      <DependentUpon>frm_Stok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokAciklama.ar.resx">
+      <DependentUpon>frm_StokAciklama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokAciklama.resx">
+      <DependentUpon>frm_StokAciklama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokSec.ar.resx">
+      <DependentUpon>frm_StokSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokSec.resx">
+      <DependentUpon>frm_StokSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokSinifi.ar.resx">
+      <DependentUpon>frm_StokSinifi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokSinifi.resx">
+      <DependentUpon>frm_StokSinifi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UzunNot.ar.resx">
+      <DependentUpon>frm_UzunNot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UzunNot.resx">
+      <DependentUpon>frm_UzunNot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -175,6 +356,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ForYou_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -188,6 +370,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OneDrive.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="ForYou.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

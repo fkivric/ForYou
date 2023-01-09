@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ForYou
 {
-    public partial class Frm_BedenTipi : Form
+    public partial class frm_BedenTipi : Form
     {
-        public Frm_BedenTipi()
+        public frm_BedenTipi()
         {
             InitializeComponent();
         }
@@ -104,7 +104,7 @@ namespace ForYou
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            frmBedenTipiAktif aktif = new frmBedenTipiAktif();
+            frm_BedenTipiAktif aktif = new frm_BedenTipiAktif();
             aktif.ShowDialog();
             txtsBedenTipi.Text = sBedenTipi;
         }
