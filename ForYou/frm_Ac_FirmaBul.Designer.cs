@@ -1,6 +1,6 @@
 ﻿namespace ForYou
 {
-    partial class frm_FirmaBul
+    partial class frm_Ac_FirmaBul
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_FirmaBul));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Ac_FirmaBul));
             this.gridFirma = new DevExpress.XtraGrid.GridControl();
             this.ViewFirma = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();

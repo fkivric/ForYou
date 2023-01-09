@@ -1,6 +1,6 @@
 ﻿namespace ForYou
 {
-    partial class frm_StandartKartAc
+    partial class frm_Ac_StandartKartAc
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_StandartKartAc));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Ac_StandartKartAc));
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.btnac4 = new DevExpress.XtraEditors.SimpleButton();

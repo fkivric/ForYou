@@ -11,9 +11,9 @@ using DevExpress.XtraEditors;
 
 namespace ForYou
 {
-    public partial class frm_StandartKartAc : DevExpress.XtraEditors.XtraForm
+    public partial class frm_Ac_StandartKartAc : DevExpress.XtraEditors.XtraForm
     {
-        public frm_StandartKartAc()
+        public frm_Ac_StandartKartAc()
         {
             InitializeComponent();
         }
@@ -46,28 +46,28 @@ namespace ForYou
 
         private void btnac1_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(textEdit2.Tag.ToString(),"1");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(textEdit2.Tag.ToString(),"1");
             frmSinif.ShowDialog();
             textEdit2.Text = sinifkodu1;
         }
 
         private void btnac2_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(textEdit4.Tag.ToString(), "1");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(textEdit4.Tag.ToString(), "1");
             frmSinif.ShowDialog();
             textEdit4.Text = sinifkodu2;
         }
 
         private void btnac3_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(textEdit6.Tag.ToString(), "1");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(textEdit6.Tag.ToString(), "1");
             frmSinif.ShowDialog();
             textEdit6.Text = sinifkodu3;
         }
 
         private void btnac4_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(textEdit8.Tag.ToString(), "1");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(textEdit8.Tag.ToString(), "1");
             frmSinif.ShowDialog();
             textEdit8.Text = sinifkodu4;
         }

@@ -32,7 +32,6 @@
             this.panel10 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbsKodu = new System.Windows.Forms.ComboBox();
-            this.btnBarkodSil = new DevExpress.XtraEditors.SimpleButton();
             this.btnBarkodIslem = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.label17 = new System.Windows.Forms.Label();
@@ -67,7 +66,6 @@
             // 
             this.panel10.Controls.Add(this.label1);
             this.panel10.Controls.Add(this.cmbsKodu);
-            this.panel10.Controls.Add(this.btnBarkodSil);
             this.panel10.Controls.Add(this.btnBarkodIslem);
             this.panel10.Controls.Add(this.simpleButton1);
             this.panel10.Controls.Add(this.label17);
@@ -93,12 +91,6 @@
             resources.ApplyResources(this.cmbsKodu, "cmbsKodu");
             this.cmbsKodu.Name = "cmbsKodu";
             this.cmbsKodu.SelectedIndexChanged += new System.EventHandler(this.cmbsKodu_SelectedIndexChanged);
-            // 
-            // btnBarkodSil
-            // 
-            resources.ApplyResources(this.btnBarkodSil, "btnBarkodSil");
-            this.btnBarkodSil.Name = "btnBarkodSil";
-            this.btnBarkodSil.Click += new System.EventHandler(this.btnBarkodSil_Click);
             // 
             // btnBarkodIslem
             // 
@@ -254,6 +246,7 @@
             this.btnSil.Appearance.Options.UseFont = true;
             resources.ApplyResources(this.btnSil, "btnSil");
             this.btnSil.Name = "btnSil";
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // frm_Barkod
             // 
@@ -279,7 +272,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel10;
-        private DevExpress.XtraEditors.SimpleButton btnBarkodSil;
         private DevExpress.XtraEditors.SimpleButton btnBarkodIslem;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private System.Windows.Forms.Label label17;

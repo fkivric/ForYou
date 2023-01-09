@@ -478,14 +478,14 @@
             resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
             // 
-            // Frm_BedenTipi
+            // frm_BedenTipi
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Frm_BedenTipi";
+            this.Name = "frm_BedenTipi";
             this.Load += new System.EventHandler(this.Frm_BedenTipi_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

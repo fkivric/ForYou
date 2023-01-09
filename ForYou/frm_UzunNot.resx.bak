@@ -253,7 +253,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;btnSil.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;btnSil.Parent" xml:space="preserve">
     <value>ultraPanel3.ClientArea</value>
@@ -340,7 +340,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;btnKaydet.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="ultraLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>

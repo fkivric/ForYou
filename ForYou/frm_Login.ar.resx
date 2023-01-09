@@ -147,7 +147,4 @@
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>377, 199</value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>377, 199</value>
-  </data>
 </root>

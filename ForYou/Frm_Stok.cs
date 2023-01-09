@@ -479,119 +479,119 @@ namespace ForYou
 
         private void ultraButton1_Click(object sender, EventArgs e)
         {
-            frm_StandartKartAc kartAc = new frm_StandartKartAc();
+            frm_Ac_StandartKartAc kartAc = new frm_Ac_StandartKartAc();
             kartAc.ShowDialog();
             txtStokKodu.Text = sModel;
         }
 
         private void btnStokBul_Click(object sender, EventArgs e)
         {
-            frm_StokSec sec = new frm_StokSec();
+            frm_Ac_StokSec sec = new frm_Ac_StokSec();
             sec.ShowDialog();
             txtStokKodu.Text = sModel;
 
         }
         private void btnsnfac1_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac1.Tag.ToString(),"2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac1.Tag.ToString(),"2");
             frmSinif.ShowDialog();
             txtsnf1.Text = sinifkodu1;
         }
 
         private void btnsnfac2_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac2.Tag.ToString(),"2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac2.Tag.ToString(),"2");
             frmSinif.ShowDialog();
             txtsnf2.Text = sinifkodu2;
         }
 
         private void btnsnfac3_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac3.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac3.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf3.Text = sinifkodu3;
         }
 
         private void btnsnfac4_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac4.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac4.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf4.Text = sinifkodu4;
         }
 
         private void btnsnfac5_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac5.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac5.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf5.Text = sinifkodu5;
         }
 
         private void btnsnfac6_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac6.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac6.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf6.Text = sinifkodu6;
         }
 
         private void btnsnfac7_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac7.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac7.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf7.Text = sinifkodu7;
         }
 
         private void btnsnfac8_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac8.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac8.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf8.Text = sinifkodu8;
         }
 
         private void btnsnfac9_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac9.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac9.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf9.Text = sinifkodu9;
         }
 
         private void btnsnfac10_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac10.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac10.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf10.Text = sinifkodu10;
         }
 
         private void btnsnfac11_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac11.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac11.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf11.Text = sinifkodu11;
         }
 
         private void btnsnfac12_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac12.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac12.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf12.Text = sinifkodu12;
         }
 
         private void btnsnfac13_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac13.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac13.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf13.Text = sinifkodu13;
         }
 
         private void btnsnfac14_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac14.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac14.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf14.Text = sinifkodu14;
         }
 
         private void btnsnfac15_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frmSinif = new frm_SinifKodu(btnsnfac15.Tag.ToString(), "2");
+            frm_Ac_SinifKodu frmSinif = new frm_Ac_SinifKodu(btnsnfac15.Tag.ToString(), "2");
             frmSinif.ShowDialog();
             txtsnf15.Text = sinifkodu15;
         }
@@ -630,12 +630,13 @@ namespace ForYou
 
         private void btnFiyatGir_Click(object sender, EventArgs e)
         {
-
+            frm_FiyatGir fiyatGir = new frm_FiyatGir(txtStokKodu.Text);
+            fiyatGir.ShowDialog();
         }
 
         private void btnfiyatGor_Click(object sender, EventArgs e)
         {
-            frm_FiyatGor gor = new frm_FiyatGor(txtStokKodu.Text);
+            frm_Ac_FiyatGor gor = new frm_Ac_FiyatGor(txtStokKodu.Text);
             gor.ShowDialog();
         }
 

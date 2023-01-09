@@ -75,15 +75,15 @@
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\..\..\..\Desktop\örnek c#\SignUpDemo\SignUpDemo\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Infragistics4.Shared.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
     <Reference Include="Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
@@ -129,35 +129,47 @@
     <Compile Include="frm_Barkod.Designer.cs">
       <DependentUpon>frm_Barkod.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_BedenTipiAktif.cs">
+    <Compile Include="frm_Ac_BedenTipiAktif.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_BedenTipiAktif.Designer.cs">
-      <DependentUpon>frm_BedenTipiAktif.cs</DependentUpon>
+    <Compile Include="frm_Ac_BedenTipiAktif.Designer.cs">
+      <DependentUpon>frm_Ac_BedenTipiAktif.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_FirmaBul.cs">
+    <Compile Include="frm_Ac_FirmaBul.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_FirmaBul.Designer.cs">
-      <DependentUpon>frm_FirmaBul.cs</DependentUpon>
+    <Compile Include="frm_Ac_FirmaBul.Designer.cs">
+      <DependentUpon>frm_Ac_FirmaBul.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_FiyatGor.cs">
+    <Compile Include="frm_FiyatGir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_FiyatGor.Designer.cs">
-      <DependentUpon>frm_FiyatGor.cs</DependentUpon>
+    <Compile Include="frm_FiyatGir.Designer.cs">
+      <DependentUpon>frm_FiyatGir.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_RenkSec.cs">
+    <Compile Include="frm_Ac_FiyatGor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_RenkSec.Designer.cs">
-      <DependentUpon>frm_RenkSec.cs</DependentUpon>
+    <Compile Include="frm_Ac_FiyatGor.Designer.cs">
+      <DependentUpon>frm_Ac_FiyatGor.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_SinifKodu.cs">
+    <Compile Include="frm_Ac_FiyatTipi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_SinifKodu.Designer.cs">
-      <DependentUpon>frm_SinifKodu.cs</DependentUpon>
+    <Compile Include="frm_Ac_FiyatTipi.Designer.cs">
+      <DependentUpon>frm_Ac_FiyatTipi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Ac_RenkSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Ac_RenkSec.Designer.cs">
+      <DependentUpon>frm_Ac_RenkSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Ac_SinifKodu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Ac_SinifKodu.Designer.cs">
+      <DependentUpon>frm_Ac_SinifKodu.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Renk.cs">
       <SubType>Form</SubType>
@@ -189,11 +201,11 @@
     <Compile Include="Frm_RenkTipi.Designer.cs">
       <DependentUpon>Frm_RenkTipi.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_StandartKartAc.cs">
+    <Compile Include="frm_Ac_StandartKartAc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_StandartKartAc.Designer.cs">
-      <DependentUpon>frm_StandartKartAc.cs</DependentUpon>
+    <Compile Include="frm_Ac_StandartKartAc.Designer.cs">
+      <DependentUpon>frm_Ac_StandartKartAc.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Stok.cs">
       <SubType>Form</SubType>
@@ -207,11 +219,11 @@
     <Compile Include="frm_StokAciklama.Designer.cs">
       <DependentUpon>frm_StokAciklama.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_StokSec.cs">
+    <Compile Include="frm_Ac_StokSec.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_StokSec.Designer.cs">
-      <DependentUpon>frm_StokSec.cs</DependentUpon>
+    <Compile Include="frm_Ac_StokSec.Designer.cs">
+      <DependentUpon>frm_Ac_StokSec.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_StokSinifi.cs">
       <SubType>Form</SubType>
@@ -235,35 +247,41 @@
     <EmbeddedResource Include="frm_Barkod.resx">
       <DependentUpon>frm_Barkod.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_BedenTipiAktif.ar.resx">
-      <DependentUpon>frm_BedenTipiAktif.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_BedenTipiAktif.ar.resx">
+      <DependentUpon>frm_Ac_BedenTipiAktif.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_BedenTipiAktif.resx">
-      <DependentUpon>frm_BedenTipiAktif.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_BedenTipiAktif.resx">
+      <DependentUpon>frm_Ac_BedenTipiAktif.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_FirmaBul.ar.resx">
-      <DependentUpon>frm_FirmaBul.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_FirmaBul.ar.resx">
+      <DependentUpon>frm_Ac_FirmaBul.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_FirmaBul.resx">
-      <DependentUpon>frm_FirmaBul.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_FirmaBul.resx">
+      <DependentUpon>frm_Ac_FirmaBul.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_FiyatGor.ar.resx">
-      <DependentUpon>frm_FiyatGor.cs</DependentUpon>
+    <EmbeddedResource Include="frm_FiyatGir.resx">
+      <DependentUpon>frm_FiyatGir.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_FiyatGor.resx">
-      <DependentUpon>frm_FiyatGor.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_FiyatGor.ar.resx">
+      <DependentUpon>frm_Ac_FiyatGor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_RenkSec.ar.resx">
-      <DependentUpon>frm_RenkSec.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_FiyatGor.resx">
+      <DependentUpon>frm_Ac_FiyatGor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_RenkSec.resx">
-      <DependentUpon>frm_RenkSec.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_FiyatTipi.resx">
+      <DependentUpon>frm_Ac_FiyatTipi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_SinifKodu.ar.resx">
-      <DependentUpon>frm_SinifKodu.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_RenkSec.ar.resx">
+      <DependentUpon>frm_Ac_RenkSec.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_SinifKodu.resx">
-      <DependentUpon>frm_SinifKodu.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_RenkSec.resx">
+      <DependentUpon>frm_Ac_RenkSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Ac_SinifKodu.ar.resx">
+      <DependentUpon>frm_Ac_SinifKodu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Ac_SinifKodu.resx">
+      <DependentUpon>frm_Ac_SinifKodu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_BedenTipi.ar-IQ.resx">
       <DependentUpon>frm_BedenTipi.cs</DependentUpon>
@@ -304,14 +322,14 @@
     <EmbeddedResource Include="Frm_RenkTipi.resx">
       <DependentUpon>Frm_RenkTipi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_StandartKartAc.ar-IQ.resx">
-      <DependentUpon>frm_StandartKartAc.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_StandartKartAc.ar-IQ.resx">
+      <DependentUpon>frm_Ac_StandartKartAc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_StandartKartAc.ar.resx">
-      <DependentUpon>frm_StandartKartAc.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_StandartKartAc.ar.resx">
+      <DependentUpon>frm_Ac_StandartKartAc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_StandartKartAc.resx">
-      <DependentUpon>frm_StandartKartAc.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_StandartKartAc.resx">
+      <DependentUpon>frm_Ac_StandartKartAc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Stok.ar-IQ.resx">
       <DependentUpon>frm_Stok.cs</DependentUpon>
@@ -328,11 +346,11 @@
     <EmbeddedResource Include="frm_StokAciklama.resx">
       <DependentUpon>frm_StokAciklama.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_StokSec.ar.resx">
-      <DependentUpon>frm_StokSec.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_StokSec.ar.resx">
+      <DependentUpon>frm_Ac_StokSec.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_StokSec.resx">
-      <DependentUpon>frm_StokSec.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Ac_StokSec.resx">
+      <DependentUpon>frm_Ac_StokSec.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_StokSinifi.ar.resx">
       <DependentUpon>frm_StokSinifi.cs</DependentUpon>

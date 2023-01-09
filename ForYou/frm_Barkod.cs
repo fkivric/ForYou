@@ -62,7 +62,7 @@ namespace ForYou
         }
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            frm_FirmaBul bul = new frm_FirmaBul();
+            frm_Ac_FirmaBul bul = new frm_Ac_FirmaBul();
             bul.ShowDialog();
             txtFirma.Text = nfirmaId;
         }
@@ -142,29 +142,6 @@ namespace ForYou
             txtFirmaStokKod.Text = "";
             txtFirmaStokAd.Text = "";
         }
-        private void btnBarkodSil_Click(object sender, EventArgs e)
-        {
-            if (secili != "")
-            {
-                DataRow[] result = Barkod.Select("sBarkod = '" + secili + "'");
-                foreach (DataRow row in result)
-                {
-                    if (row["sBarkod"].ToString().Trim().ToUpper().Contains(secili))
-                        Barkod.Rows.Remove(row);
-                }
-            }
-            else
-            {
-                if (Thread.CurrentThread.CurrentUICulture.IetfLanguageTag == "ar-AR")
-                {
-                    MessageBox.Show("حدد الرمز الشريطي المراد حذفه", "Dikkat");
-                }
-                else
-                {
-                    MessageBox.Show("Silinecek barkodu seçin", "Dikkat");
-                }
-            }
-        }
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
@@ -192,6 +169,30 @@ namespace ForYou
         private void ViewBarkod_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
         {
             secili = ViewBarkod.GetRowCellValue(e.RowHandle, "sBarkod").ToString();
+        }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            if (secili != "")
+            {
+                DataRow[] result = Barkod.Select("sBarkod = '" + secili + "'");
+                foreach (DataRow row in result)
+                {
+                    if (row["sBarkod"].ToString().Trim().ToUpper().Contains(secili))
+                        Barkod.Rows.Remove(row);
+                }
+            }
+            else
+            {
+                if (Thread.CurrentThread.CurrentUICulture.IetfLanguageTag == "ar-AR")
+                {
+                    MessageBox.Show("حدد الرمز الشريطي المراد حذفه", "Dikkat");
+                }
+                else
+                {
+                    MessageBox.Show("Silinecek barkodu seçin", "Dikkat");
+                }
+            }
         }
     }
 }

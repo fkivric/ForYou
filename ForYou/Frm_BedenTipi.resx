@@ -117,9 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="simpleButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
+  <data name="&gt;&gt;textEdit4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
@@ -129,11 +128,12 @@
   <data name="textEdit25.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="textEdit13.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txt1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 5</value>
   </data>
-  <data name="textEdit24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 89</value>
+  <data name="txt13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 22</value>
   </data>
   <data name="simpleButton1.Text" xml:space="preserve">
     <value>...</value>
@@ -156,17 +156,20 @@
   <data name="txt14.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
-    <value>groupControl2</value>
+  <data name="&gt;&gt;textEdit4.Name" xml:space="preserve">
+    <value>textEdit4</value>
   </data>
   <data name="txt13.Location" type="System.Drawing.Point, System.Drawing">
     <value>84, 61</value>
   </data>
+  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
   <data name="&gt;&gt;txt14.Name" xml:space="preserve">
     <value>txt14</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>376, 275</value>
+  <data name="&gt;&gt;textEdit28.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="textEdit17.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -183,11 +186,11 @@
   <data name="textEdit17.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 22</value>
   </data>
-  <data name="&gt;&gt;txt3.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;txt9.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;textEdit25.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt7.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -201,17 +204,17 @@
   <data name="&gt;&gt;txtsBedenTipi.Name" xml:space="preserve">
     <value>txtsBedenTipi</value>
   </data>
-  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;textEdit17.Name" xml:space="preserve">
+    <value>textEdit17</value>
+  </data>
+  <data name="btnSil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 0</value>
   </data>
   <data name="&gt;&gt;textEdit24.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtsBedenTipi.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtsBedenTipi.Parent" xml:space="preserve">
-    <value>panel1</value>
   </data>
   <data name="textEdit6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -225,11 +228,14 @@
   <data name="textEdit13.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 33</value>
   </data>
-  <data name="txt5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 22</value>
-  </data>
   <data name="&gt;&gt;textEdit25.Parent" xml:space="preserve">
     <value>groupControl3</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 4</value>
+  </data>
+  <data name="txt2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="textEdit19.EditValue" xml:space="preserve">
     <value>Beden 10  :</value>
@@ -241,7 +247,7 @@
     <value>txt7</value>
   </data>
   <data name="&gt;&gt;btnKaydet.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt10.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -249,20 +255,23 @@
   <data name="textEdit29.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 5</value>
   </data>
-  <data name="txt15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 22</value>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="btnYeni.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="textEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 5</value>
   </data>
   <data name="txt4.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="&gt;&gt;textEdit6.Name" xml:space="preserve">
     <value>textEdit6</value>
   </data>
-  <data name="textEdit21.EditValue" xml:space="preserve">
-    <value>Beden 13 :</value>
+  <data name="textEdit1.EditValue" xml:space="preserve">
+    <value>Beden 1  :</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -277,28 +286,28 @@
     <value>1</value>
   </data>
   <data name="&gt;&gt;textEdit28.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Beden Tipi Aç / Değiştir / Sil</value>
-  </data>
-  <data name="txt1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 5</value>
   </data>
   <data name="&gt;&gt;txt15.Parent" xml:space="preserve">
     <value>groupControl3</value>
   </data>
   <data name="&gt;&gt;txt6.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;txt13.Name" xml:space="preserve">
-    <value>txt13</value>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
-    <value>panelControl1</value>
+  <data name="txtsBedenTipi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 20</value>
   </data>
-  <data name="textEdit15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 61</value>
+  <data name="textEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 22</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="btnKaydet.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
@@ -310,7 +319,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;simpleButton2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="textEdit1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -333,20 +342,17 @@
   <data name="&gt;&gt;btnSil.Name" xml:space="preserve">
     <value>btnSil</value>
   </data>
-  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
   <data name="txt7.Location" type="System.Drawing.Point, System.Drawing">
     <value>75, 33</value>
+  </data>
+  <data name="txt1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 22</value>
   </data>
   <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>372, 152</value>
   </data>
-  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
-    <value>groupControl1</value>
-  </data>
-  <data name="&gt;&gt;txt2.Name" xml:space="preserve">
-    <value>txt2</value>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -357,8 +363,8 @@
   <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="txt5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 117</value>
+  <data name="txt14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 89</value>
   </data>
   <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
     <value>$this</value>
@@ -372,8 +378,8 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnSil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 0</value>
+  <data name="txt5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 117</value>
   </data>
   <data name="&gt;&gt;textEdit15.Name" xml:space="preserve">
     <value>textEdit15</value>
@@ -387,9 +393,6 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="groupControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
   <data name="txt8.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 22</value>
   </data>
@@ -399,23 +402,17 @@
   <data name="&gt;&gt;txt11.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;btnSil.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 19</value>
   </data>
   <data name="&gt;&gt;txt5.Name" xml:space="preserve">
     <value>txt5</value>
   </data>
-  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt9.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;textEdit9.Parent" xml:space="preserve">
     <value>groupControl1</value>
@@ -427,10 +424,10 @@
     <value>11, 15</value>
   </data>
   <data name="&gt;&gt;textEdit13.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="textEdit11.EditValue" xml:space="preserve">
-    <value>Beden 6  :</value>
+  <data name="&gt;&gt;txt2.Name" xml:space="preserve">
+    <value>txt2</value>
   </data>
   <data name="&gt;&gt;btnYeni.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -450,6 +447,9 @@
   <data name="txt5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="textEdit9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="&gt;&gt;btnKaydet.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
@@ -458,6 +458,9 @@
   </data>
   <data name="btnSil.Text" xml:space="preserve">
     <value>Sil</value>
+  </data>
+  <data name="&gt;&gt;textEdit25.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="btnSil.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -474,9 +477,6 @@
   <data name="&gt;&gt;txt14.Parent" xml:space="preserve">
     <value>groupControl3</value>
   </data>
-  <data name="textEdit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 22</value>
-  </data>
   <data name="textEdit29.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -490,7 +490,7 @@
     <value>groupControl1</value>
   </data>
   <data name="&gt;&gt;txt11.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="simpleButton1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -507,8 +507,11 @@
   <data name="&gt;&gt;txt11.Name" xml:space="preserve">
     <value>txt11</value>
   </data>
+  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
   <data name="&gt;&gt;textEdit21.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="textEdit7.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 89</value>
@@ -519,11 +522,8 @@
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;textEdit4.Name" xml:space="preserve">
-    <value>textEdit4</value>
-  </data>
-  <data name="txt6.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="btnYeni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 31</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 13</value>
@@ -531,20 +531,20 @@
   <data name="txt12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="simpleButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 11</value>
+  <data name="textEdit13.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txt2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;groupControl3.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt2.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="&gt;&gt;txt13.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt15.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -552,26 +552,23 @@
   <data name="&gt;&gt;txt9.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
-  <data name="txt6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 22</value>
-  </data>
   <data name="textEdit4.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt12.Parent" xml:space="preserve">
     <value>groupControl3</value>
   </data>
-  <data name="textEdit19.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="textEdit21.EditValue" xml:space="preserve">
+    <value>Beden 13 :</value>
   </data>
   <data name="&gt;&gt;textEdit11.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;textEdit21.Name" xml:space="preserve">
-    <value>textEdit21</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -582,11 +579,8 @@
   <data name="&gt;&gt;txt8.Name" xml:space="preserve">
     <value>txt8</value>
   </data>
-  <data name="groupControl3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <data name="&gt;&gt;textEdit9.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt13.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -594,14 +588,11 @@
   <data name="groupControl3.Location" type="System.Drawing.Point, System.Drawing">
     <value>242, 2</value>
   </data>
-  <data name="textEdit24.EditValue" xml:space="preserve">
-    <value>Beden 14 :</value>
+  <data name="simpleButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;txt3.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;txt6.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;textEdit9.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -615,6 +606,9 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Açıklma</value>
   </data>
+  <data name="&gt;&gt;txt13.Name" xml:space="preserve">
+    <value>txt13</value>
+  </data>
   <data name="&gt;&gt;txt5.Parent" xml:space="preserve">
     <value>groupControl1</value>
   </data>
@@ -627,20 +621,14 @@
   <data name="&gt;&gt;textEdit11.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
-  <data name="txt13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 22</value>
-  </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>376, 35</value>
   </data>
   <data name="&gt;&gt;textEdit17.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
-  <data name="textEdit4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 33</value>
-  </data>
-  <data name="textEdit1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 5</value>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
   </data>
   <data name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
     <value>simpleButton1</value>
@@ -649,13 +637,10 @@
     <value>69, 22</value>
   </data>
   <data name="&gt;&gt;txt5.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;textEdit6.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="textEdit11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 22</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -672,8 +657,8 @@
   <data name="&gt;&gt;textEdit24.Name" xml:space="preserve">
     <value>textEdit24</value>
   </data>
-  <data name="&gt;&gt;txt11.Parent" xml:space="preserve">
-    <value>groupControl3</value>
+  <data name="&gt;&gt;txt3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="txt3.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 22</value>
@@ -684,8 +669,8 @@
   <data name="&gt;&gt;txt2.Parent" xml:space="preserve">
     <value>groupControl1</value>
   </data>
-  <data name="&gt;&gt;textEdit28.Name" xml:space="preserve">
-    <value>textEdit28</value>
+  <data name="txt12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 33</value>
   </data>
   <data name="txt15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -697,13 +682,13 @@
     <value>7</value>
   </data>
   <data name="&gt;&gt;textEdit29.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;txt9.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
-  <data name="&gt;&gt;txt8.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="textEdit4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 33</value>
   </data>
   <data name="&gt;&gt;textEdit13.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -711,14 +696,14 @@
   <data name="txt8.Location" type="System.Drawing.Point, System.Drawing">
     <value>75, 61</value>
   </data>
-  <data name="txt3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 61</value>
+  <data name="&gt;&gt;txt15.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt9.Name" xml:space="preserve">
     <value>txt9</value>
   </data>
   <data name="&gt;&gt;txt10.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="txt4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -762,14 +747,11 @@
   <data name="&gt;&gt;textEdit13.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
-  <data name="textEdit1.EditValue" xml:space="preserve">
-    <value>Beden 1  :</value>
-  </data>
   <data name="txt7.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 22</value>
   </data>
-  <data name="&gt;&gt;btnSil.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="btnYeni.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="&gt;&gt;textEdit1.Parent" xml:space="preserve">
     <value>groupControl1</value>
@@ -786,6 +768,9 @@
   <data name="textEdit6.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="textEdit15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 61</value>
+  </data>
   <data name="&gt;&gt;textEdit7.Parent" xml:space="preserve">
     <value>groupControl1</value>
   </data>
@@ -794,6 +779,9 @@
   </data>
   <data name="textEdit4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
+  </data>
+  <data name="txtsBedenTipi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 11</value>
   </data>
   <data name="textEdit25.EditValue" xml:space="preserve">
     <value>Beden 12:</value>
@@ -805,10 +793,7 @@
     <value>Top</value>
   </data>
   <data name="&gt;&gt;btnYeni.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -820,7 +805,7 @@
     <value>118, 148</value>
   </data>
   <data name="&gt;&gt;textEdit7.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>376, 39</value>
@@ -837,38 +822,38 @@
   <data name="groupControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
+  <data name="textEdit19.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="simpleButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 11</value>
+  </data>
   <data name="&gt;&gt;textEdit15.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 4</value>
+  <data name="textEdit11.EditValue" xml:space="preserve">
+    <value>Beden 6  :</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;txt12.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="textEdit13.EditValue" xml:space="preserve">
     <value>Beden 7  :</value>
   </data>
-  <data name="simpleButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="textEdit7.EditValue" xml:space="preserve">
+    <value>Beden 4  :</value>
   </data>
-  <data name="&gt;&gt;textEdit4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="textEdit21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 61</value>
   </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;simpleButton2.Name" xml:space="preserve">
-    <value>simpleButton2</value>
+  <data name="groupControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="txt8.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="textEdit24.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
   </data>
   <data name="txt11.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -878,6 +863,9 @@
   </data>
   <data name="&gt;&gt;btnKaydet.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="txt10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 117</value>
   </data>
   <data name="&gt;&gt;textEdit29.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -891,6 +879,9 @@
   <data name="&gt;&gt;txt12.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="txt3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="&gt;&gt;txt8.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
@@ -901,19 +892,16 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Frm_BedenTipi</value>
+    <value>frm_BedenTipi</value>
   </data>
   <data name="textEdit15.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 22</value>
   </data>
-  <data name="btnYeni.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 31</value>
-  </data>
-  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="simpleButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
   </data>
   <data name="&gt;&gt;txt14.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;textEdit9.Name" xml:space="preserve">
     <value>textEdit9</value>
@@ -929,9 +917,6 @@
   </data>
   <data name="textEdit6.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 61</value>
-  </data>
-  <data name="txt14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 89</value>
   </data>
   <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -949,7 +934,7 @@
     <value>Top</value>
   </data>
   <data name="&gt;&gt;txt1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;textEdit19.Name" xml:space="preserve">
     <value>textEdit19</value>
@@ -960,11 +945,14 @@
   <data name="txt13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
+  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
   <data name="txt12.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;textEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>376, 201</value>
@@ -976,13 +964,16 @@
     <value>textEdit11</value>
   </data>
   <data name="&gt;&gt;textEdit19.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="textEdit15.EditValue" xml:space="preserve">
     <value>Beden 8  :</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 19</value>
+  <data name="&gt;&gt;txt10.Name" xml:space="preserve">
+    <value>txt10</value>
+  </data>
+  <data name="txt6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;textEdit17.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -997,13 +988,13 @@
     <value>Beden 2  :</value>
   </data>
   <data name="&gt;&gt;txt4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;textEdit19.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
-  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="&gt;&gt;btnSil.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;textEdit7.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -1013,9 +1004,6 @@
   </data>
   <data name="textEdit19.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 117</value>
-  </data>
-  <data name="textEdit6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 22</value>
   </data>
   <data name="textEdit25.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1047,6 +1035,9 @@
   <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 148</value>
   </data>
+  <data name="&gt;&gt;txt8.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="txt1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -1059,32 +1050,32 @@
   <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
-    <value>panelControl1</value>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="textEdit28.EditValue" xml:space="preserve">
     <value>Beden 15:</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="txt15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 22</value>
   </data>
-  <data name="&gt;&gt;txt15.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;txt6.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;txt10.Name" xml:space="preserve">
-    <value>txt10</value>
+  <data name="&gt;&gt;txtsBedenTipi.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="textEdit24.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="textEdit7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 22</value>
+  <data name="groupControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="&gt;&gt;textEdit17.Name" xml:space="preserve">
-    <value>textEdit17</value>
+  <data name="&gt;&gt;simpleButton2.Name" xml:space="preserve">
+    <value>simpleButton2</value>
   </data>
   <data name="btnKaydet.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 31</value>
@@ -1093,7 +1084,7 @@
     <value>1</value>
   </data>
   <data name="&gt;&gt;txt7.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txt3.Name" xml:space="preserve">
     <value>txt3</value>
@@ -1107,23 +1098,29 @@
   <data name="&gt;&gt;btnKaydet.Name" xml:space="preserve">
     <value>btnKaydet</value>
   </data>
+  <data name="&gt;&gt;textEdit21.Name" xml:space="preserve">
+    <value>textEdit21</value>
+  </data>
   <data name="&gt;&gt;textEdit17.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="txt6.Location" type="System.Drawing.Point, System.Drawing">
     <value>75, 5</value>
   </data>
   <data name="&gt;&gt;textEdit11.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;textEdit7.Name" xml:space="preserve">
     <value>textEdit7</value>
   </data>
-  <data name="textEdit7.EditValue" xml:space="preserve">
-    <value>Beden 4  :</value>
+  <data name="textEdit6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 22</value>
   </data>
-  <data name="txt3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="textEdit7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 22</value>
+  </data>
+  <data name="&gt;&gt;btnSil.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1131,17 +1128,20 @@
   <data name="txt5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
+  <data name="textEdit24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 89</value>
+  </data>
   <data name="&gt;&gt;simpleButton2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="txt2.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="textEdit28.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 22</value>
@@ -1149,29 +1149,29 @@
   <data name="&gt;&gt;textEdit29.Name" xml:space="preserve">
     <value>textEdit29</value>
   </data>
-  <data name="txt12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 33</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>376, 275</value>
   </data>
   <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
     <value>panelControl1</value>
   </data>
-  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
   <data name="&gt;&gt;textEdit21.Parent" xml:space="preserve">
     <value>groupControl3</value>
   </data>
-  <data name="textEdit21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 61</value>
+  <data name="textEdit11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 22</value>
   </data>
-  <data name="&gt;&gt;textEdit28.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="txt10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 22</value>
+  </data>
+  <data name="txt6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 22</value>
   </data>
   <data name="txt11.Location" type="System.Drawing.Point, System.Drawing">
     <value>84, 5</value>
   </data>
-  <data name="txt1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 22</value>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
   </data>
   <data name="textEdit28.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -1194,8 +1194,8 @@
   <data name="txtsBedenTipi.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;textEdit25.Name" xml:space="preserve">
-    <value>textEdit25</value>
+  <data name="textEdit24.EditValue" xml:space="preserve">
+    <value>Beden 14 :</value>
   </data>
   <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
     <value>panel3</value>
@@ -1216,19 +1216,19 @@
     <value>0, 0</value>
   </data>
   <data name="&gt;&gt;textEdit15.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="groupControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="txt10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 117</value>
+  <data name="txt5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 22</value>
   </data>
   <data name="txt2.Location" type="System.Drawing.Point, System.Drawing">
     <value>72, 33</value>
   </data>
-  <data name="txtsBedenTipi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 11</value>
+  <data name="&gt;&gt;textEdit25.Name" xml:space="preserve">
+    <value>textEdit25</value>
   </data>
   <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
     <value>panel3</value>
@@ -1236,23 +1236,23 @@
   <data name="textEdit29.EditValue" xml:space="preserve">
     <value>Beden 11 :</value>
   </data>
-  <data name="txt10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 22</value>
+  <data name="&gt;&gt;textEdit28.Name" xml:space="preserve">
+    <value>textEdit28</value>
   </data>
   <data name="&gt;&gt;txt1.Name" xml:space="preserve">
     <value>txt1</value>
   </data>
-  <data name="txtsBedenTipi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 20</value>
+  <data name="txt3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 61</value>
   </data>
-  <data name="&gt;&gt;textEdit25.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="txt2.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 22</value>
   </data>
-  <data name="textEdit9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
   </data>
   <data name="&gt;&gt;txt12.Name" xml:space="preserve">
     <value>txt12</value>
@@ -1260,13 +1260,10 @@
   <data name="textEdit15.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;txt11.Parent" xml:space="preserve">
+    <value>groupControl3</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ar</value>
   </metadata>
 </root>

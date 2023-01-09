@@ -30,7 +30,7 @@ namespace ForYou
         public static string Secili;
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            frm_SinifKodu frm = new frm_SinifKodu(cmbSinif.SelectedValue.ToString(), "3");
+            frm_Ac_SinifKodu frm = new frm_Ac_SinifKodu(cmbSinif.SelectedValue.ToString(), "3");
             frm.ShowDialog();
             textEdit1.Text = Secili;
         }

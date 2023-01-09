@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ForYou
 {
-    public partial class frm_FirmaBul : Form
+    public partial class frm_Ac_FirmaBul : Form
     {
-        public frm_FirmaBul()
+        public frm_Ac_FirmaBul()
         {
             InitializeComponent();
         }

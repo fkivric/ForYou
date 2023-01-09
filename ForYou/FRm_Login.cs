@@ -64,5 +64,50 @@ namespace ForYou
             this.Close();
             this.Dispose();
         }
+
+        private void frm_Login_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                simpleButton1_Click(null, null);
+            }
+
+            if (e.KeyCode == Keys.Escape)
+            {
+                Application.Exit();
+                this.Close();
+                this.Dispose();
+            }
+        }
+
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                simpleButton1_Click(null, null);
+            }
+
+            if (e.KeyCode == Keys.Escape)
+            {
+                Application.Exit();
+                this.Close();
+                this.Dispose();
+            }
+        }
+
+        private void txtUserName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                simpleButton1_Click(null, null);
+            }
+
+            if (e.KeyCode == Keys.Escape)
+            {
+                Application.Exit();
+                this.Close();
+                this.Dispose();
+            }
+        }
     }
 }

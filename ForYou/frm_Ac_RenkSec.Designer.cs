@@ -1,6 +1,6 @@
 ﻿namespace ForYou
 {
-    partial class frm_RenkSec
+    partial class frm_Ac_RenkSec
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_RenkSec));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Ac_RenkSec));
             this.gridRenk = new DevExpress.XtraGrid.GridControl();
             this.ViewRenk = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();

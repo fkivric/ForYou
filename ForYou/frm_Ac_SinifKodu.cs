@@ -52,7 +52,7 @@ namespace ForYou
                 {
                     if (tur == "1")
                     {
-                        frm_StandartKartAc.sinifkodu1 = kod;
+                        frm_Ac_StandartKartAc.sinifkodu1 = kod;
                     }
                     else
                     {
@@ -76,7 +76,7 @@ namespace ForYou
                 {
                     if (tur == "1")
                     {
-                        frm_StandartKartAc.sinifkodu2 = kod;
+                        frm_Ac_StandartKartAc.sinifkodu2 = kod;
                     }
                     else
                     {
@@ -88,7 +88,7 @@ namespace ForYou
                     {
                     if (tur == "1")
                     {
-                        frm_StandartKartAc.sinifkodu3 = kod;
+                        frm_Ac_StandartKartAc.sinifkodu3 = kod;
                     }
                     else
                     {
@@ -100,7 +100,7 @@ namespace ForYou
                 {
                     if (tur == "1")
                     {
-                        frm_StandartKartAc.sinifkodu4 = kod;
+                        frm_Ac_StandartKartAc.sinifkodu4 = kod;
                     }
                     else
                     {

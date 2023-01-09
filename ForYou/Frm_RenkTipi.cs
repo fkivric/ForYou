@@ -22,7 +22,7 @@ namespace ForYou
         SqlConnectionObject cnn = new SqlConnectionObject();
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            frm_RenkSec sec = new frm_RenkSec();
+            frm_Ac_RenkSec sec = new frm_Ac_RenkSec();
             sec.ShowDialog();
             txtRenkKodu.Text = sRenk; 
         }

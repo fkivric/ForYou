@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace ForYou
 {
-    public partial class frm_FiyatGor : Form
+    public partial class frm_Ac_FiyatGor : Form
     {
         string smodel;
-        public frm_FiyatGor(string _smodel)
+        public frm_Ac_FiyatGor(string _smodel)
         {
             InitializeComponent();
             smodel = _smodel;

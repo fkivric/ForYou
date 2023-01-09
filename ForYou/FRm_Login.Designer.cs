@@ -74,11 +74,13 @@
             // 
             resources.ApplyResources(this.txtPassword, "txtPassword");
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyDown);
             // 
             // txtUserName
             // 
             resources.ApplyResources(this.txtUserName, "txtUserName");
             this.txtUserName.Name = "txtUserName";
+            this.txtUserName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUserName_KeyDown);
             // 
             // dropDownButton1
             // 
@@ -95,6 +97,7 @@
             this.Controls.Add(this.ultraPanel1);
             this.Name = "frm_Login";
             this.Load += new System.EventHandler(this.FRm_Login_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frm_Login_KeyDown);
             this.ultraPanel1.ClientArea.ResumeLayout(false);
             this.ultraPanel1.ClientArea.PerformLayout();
             this.ultraPanel1.ResumeLayout(false);
